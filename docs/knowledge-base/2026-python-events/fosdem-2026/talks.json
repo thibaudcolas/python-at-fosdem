@@ -1,0 +1,392 @@
+[
+  {
+    "title": "The Bakery: How PEP810 sped up my bread operations business",
+    "subtitle": null,
+    "event_url": "https://fosdem.org/2026/schedule/event/HAAABD-python-pep810/",
+    "event_slug": "HAAABD-python-pep810",
+    "fosdem_event_id": "9099",
+    "guid": "9adb0894-f5f2-5b62-ad07-cc5070424434",
+    "date": "2026-01-31T15:00:00+01:00",
+    "start_local": "15:00",
+    "end_local": "2026-01-31T15:30:00+01:00",
+    "day": "Saturday",
+    "duration": "00:30",
+    "room": "UA2.220 (Guillissen)",
+    "track": "Python",
+    "talk_type": "devroom",
+    "language": "en",
+    "abstract_html": "<p>Discover how PEP 810's explicit lazy imports can dramatically improve Python application startup times. Using a real CLI tool as a case study, that we totally use in our real business, this talk demonstrates practical techniques to optimize import performance while maintaining code clarity and safety.</p>",
+    "abstract_plain": "Discover how PEP 810's explicit lazy imports can dramatically improve Python application startup times. Using a real CLI tool as a case study, that we totally use in our real business, this talk demonstrates practical techniques to optimize import performance while maintaining code clarity and safety.",
+    "description_html": null,
+    "description_plain": null,
+    "speakers": [
+      {
+        "name": "Jacob Coffee",
+        "fosdem_profile_url": "https://fosdem.org/2026/schedule/speaker/jacob_coffee/",
+        "person_id": 5580
+      }
+    ],
+    "video_recordings": [
+      {
+        "url": "https://video.fosdem.org/2026/ua2220/HAAABD-python-pep810.av1.webm",
+        "label": "Video recording (AV1/WebM; preferred) - 144.0 MB"
+      },
+      {
+        "url": "https://video.fosdem.org/2026/ua2220/HAAABD-python-pep810.mp4",
+        "label": "Video recording (MP4; for legacy systems) - 501.2 MB"
+      }
+    ],
+    "slides": [
+      {
+        "url": "https://fosdem.org/2026/events/attachments/HAAABD-python-pep810/slides/266934/talk_-_co_chhdrub.pdf",
+        "label": "Slides"
+      }
+    ],
+    "feedback_url": "https://pretalx.fosdem.org/fosdem-2026/talk/HAAABD/feedback/",
+    "other_links": [],
+    "sources": [
+      "https://fosdem.org/2026/schedule/event/HAAABD-python-pep810/",
+      "https://fosdem.org/2026/schedule/xml"
+    ]
+  },
+  {
+    "title": "The GIL and API Performance: Past, Present, and Free-Threaded Future",
+    "subtitle": null,
+    "event_url": "https://fosdem.org/2026/schedule/event/ABJMWD-the_gil_and_api_performance_past_present_and_free-threaded_future/",
+    "event_slug": "ABJMWD-the_gil_and_api_performance_past_present_and_free-threaded_future",
+    "fosdem_event_id": "7766",
+    "guid": "4d4779e6-b5b8-5af4-bf4f-f1280b157376",
+    "date": "2026-01-31T15:30:00+01:00",
+    "start_local": "15:30",
+    "end_local": "2026-01-31T16:00:00+01:00",
+    "day": "Saturday",
+    "duration": "00:30",
+    "room": "UA2.220 (Guillissen)",
+    "track": "Python",
+    "talk_type": "devroom",
+    "language": "en",
+    "abstract_html": "<p>Python’s Global Interpreter Lock has shaped the way developers build concurrent applications for nearly three decades. While the GIL simplified the CPython ecosystem, it also imposed well-known limits on CPU-bound work and multithreaded scalability. With the introduction of free-threaded Python (3.14t), that is about to change.</p>\n<p>This talk explores the history and purpose of the GIL, why it existed for so long, and the innovations that finally made its removal viable. We’ll look at how free-threading affects real workloads through concrete benchmarks. We'll investigate the often overlooked effect of freethreading on webservers. You’ll see how modern servers like Granian, ASGI frameworks, and WSGI stacks behave when threads are no longer serialized by the interpreter.</p>\n<p>By the end, you’ll understand not only what the GIL is, but what its disappearance means for scaling Python applications in production. Whether you're building high-throughput APIs, tuning async code, or planning future architecture, free-threaded Python opens the door to new performance ceilings - along with new tradeoffs every developer should know.</p>",
+    "abstract_plain": "Python’s Global Interpreter Lock has shaped the way developers build concurrent applications for nearly three decades. While the GIL simplified the CPython ecosystem, it also imposed well-known limits on CPU-bound work and multithreaded scalability. With the introduction of free-threaded Python (3.14t), that is about to change.\n\nThis talk explores the history and purpose of the GIL, why it existed for so long, and the innovations that finally made its removal viable. We’ll look at how free-threading affects real workloads through concrete benchmarks. We'll investigate the often overlooked effect of freethreading on webservers. You’ll see how modern servers like Granian, ASGI frameworks, and WSGI stacks behave when threads are no longer serialized by the interpreter.\n\nBy the end, you’ll understand not only what the GIL is, but what its disappearance means for scaling Python applications in production. Whether you're building high-throughput APIs, tuning async code, or planning future architecture, free-threaded Python opens the door to new performance ceilings - along with new tradeoffs every developer should know.",
+    "description_html": null,
+    "description_plain": null,
+    "speakers": [
+      {
+        "name": "Ruben Hias",
+        "fosdem_profile_url": "https://fosdem.org/2026/schedule/speaker/ruben_hias/",
+        "person_id": 5784
+      }
+    ],
+    "video_recordings": [
+      {
+        "url": "https://video.fosdem.org/2026/ua2220/ABJMWD-the_gil_and_api_performance_past_present_and_free-threaded_future.av1.webm",
+        "label": "Video recording (AV1/WebM; preferred) - 100.7 MB"
+      },
+      {
+        "url": "https://video.fosdem.org/2026/ua2220/ABJMWD-the_gil_and_api_performance_past_present_and_free-threaded_future.mp4",
+        "label": "Video recording (MP4; for legacy systems) - 593.2 MB"
+      }
+    ],
+    "slides": [
+      {
+        "url": "https://fosdem.org/2026/events/attachments/ABJMWD-the_gil_and_api_performance_past_present_and_free-threaded_future/slides/266979/the_gil_a_fw7etsx.pdf",
+        "label": "Slides"
+      }
+    ],
+    "feedback_url": "https://pretalx.fosdem.org/fosdem-2026/talk/ABJMWD/feedback/",
+    "other_links": [],
+    "sources": [
+      "https://fosdem.org/2026/schedule/event/ABJMWD-the_gil_and_api_performance_past_present_and_free-threaded_future/",
+      "https://fosdem.org/2026/schedule/xml"
+    ]
+  },
+  {
+    "title": "Modern Python monorepo with `uv`, `workspaces`, `prek` and shared libraries",
+    "subtitle": null,
+    "event_url": "https://fosdem.org/2026/schedule/event/WE7NHM-modern-python-monorepo-apache-airflow/",
+    "event_slug": "WE7NHM-modern-python-monorepo-apache-airflow",
+    "fosdem_event_id": "9075",
+    "guid": "7543fb0e-4b33-5536-bad7-14e0d84cd058",
+    "date": "2026-01-31T16:00:00+01:00",
+    "start_local": "16:00",
+    "end_local": "2026-01-31T16:30:00+01:00",
+    "day": "Saturday",
+    "duration": "00:30",
+    "room": "UA2.220 (Guillissen)",
+    "track": "Python",
+    "talk_type": "devroom",
+    "language": "en",
+    "abstract_html": "<p>Apache Airflow is the most popular Data Workflow Orchestrator - developed under the Apache Software Foundation umbrella. We have 120+ Python distributions in our rep, and we often release ~ 100 of them every two week. </p>\n<p>All those distributions are built from a single monorepo. </p>\n<p><code>[jarekpotiuk:~/code/airflow]  find . -name 'pyproject.toml' | wc\n     120     120    4248</code></p>\n<p>This had always posed a lot of challenges and we had a lot of tooling to make it possible, however with the recent development of Python Packaging tools, multipel Packaging PEPs implemented, and with new wave of tools such as <code>uv</code> and <code>prek</code>, our setup is finally manageable and we removed 1000s of line of custom code we wrote before after we applied <code>uv</code> workspaces, switched to <code>prek</code>, started using inline script metadata.</p>\n<p>It's a breeze to have monorepo now. This talk explains how.</p>\n<p>Bonus content. If you know the differences between dynamically and statically linked libraries in C and other languages, or used NPM - you might recognise the need of being able to use different versions of the same library in the same system. It's not possible in Python. Or is it? </p>\n<p>We've figured out a way to eat cake and have it too - and we have \"statically linked\" libraries in Python. How did we do it?  </p>\n<p>You will find out how from the talk.</p>",
+    "abstract_plain": "Apache Airflow is the most popular Data Workflow Orchestrator - developed under the Apache Software Foundation umbrella. We have 120+ Python distributions in our rep, and we often release ~ 100 of them every two week.\n\nAll those distributions are built from a single monorepo.\n\n[jarekpotiuk:~/code/airflow]  find . -name 'pyproject.toml' | wc\n     120     120    4248\n\nThis had always posed a lot of challenges and we had a lot of tooling to make it possible, however with the recent development of Python Packaging tools, multipel Packaging PEPs implemented, and with new wave of tools such as uv and prek, our setup is finally manageable and we removed 1000s of line of custom code we wrote before after we applied uv workspaces, switched to prek, started using inline script metadata.\n\nIt's a breeze to have monorepo now. This talk explains how.\n\nBonus content. If you know the differences between dynamically and statically linked libraries in C and other languages, or used NPM - you might recognise the need of being able to use different versions of the same library in the same system. It's not possible in Python. Or is it?\n\nWe've figured out a way to eat cake and have it too - and we have \"statically linked\" libraries in Python. How did we do it?\n\nYou will find out how from the talk.",
+    "description_html": null,
+    "description_plain": null,
+    "speakers": [
+      {
+        "name": "Jarek Potiuk",
+        "fosdem_profile_url": "https://fosdem.org/2026/schedule/speaker/jarek_potiuk/",
+        "person_id": 6553
+      }
+    ],
+    "video_recordings": [
+      {
+        "url": "https://video.fosdem.org/2026/ua2220/WE7NHM-modern-python-monorepo-apache-airflow.av1.webm",
+        "label": "Video recording (AV1/WebM; preferred) - 86.3 MB"
+      },
+      {
+        "url": "https://video.fosdem.org/2026/ua2220/WE7NHM-modern-python-monorepo-apache-airflow.mp4",
+        "label": "Video recording (MP4; for legacy systems) - 626.0 MB"
+      }
+    ],
+    "slides": [],
+    "feedback_url": "https://pretalx.fosdem.org/fosdem-2026/talk/WE7NHM/feedback/",
+    "other_links": [
+      {
+        "url": "https://docs.google.com/presentation/d/1vPWYJ_9GmUNZfFl7gJvl7evYHb4zGjAPq2BVXhiJNR8/edit?usp=sharing",
+        "label": "Presentation"
+      }
+    ],
+    "sources": [
+      "https://fosdem.org/2026/schedule/event/WE7NHM-modern-python-monorepo-apache-airflow/",
+      "https://fosdem.org/2026/schedule/xml"
+    ]
+  },
+  {
+    "title": "PyInfra: Because Your Infrastructure Deserves Real Code in Python, Not YAML Soup",
+    "subtitle": null,
+    "event_url": "https://fosdem.org/2026/schedule/event/VEQTLH-infrastructure-as-python/",
+    "event_slug": "VEQTLH-infrastructure-as-python",
+    "fosdem_event_id": "8014",
+    "guid": "95e720d0-a3c9-595d-8f50-9b3af8098869",
+    "date": "2026-01-31T16:30:00+01:00",
+    "start_local": "16:30",
+    "end_local": "2026-01-31T17:00:00+01:00",
+    "day": "Saturday",
+    "duration": "00:30",
+    "room": "UA2.220 (Guillissen)",
+    "track": "Python",
+    "talk_type": "devroom",
+    "language": "en",
+    "abstract_html": "<p>Remember when we said \"Infrastructure as Code\"? Somehow, the industry heard \"Infrastructure as YAML\" and ran with it. Now we're drowning in a sea of indentation-sensitive, template-riddled, Jinja2-abused configuration files that make even the most battle-hardened sysadmins weep into their mechanical keyboards.</p>\n<p>Enter <strong>PyInfra</strong>—where your infrastructure is <em>actually</em> code. Real Python. With loops that don’t require learning a DSL. With functions that are... wait for it... actual functions. With error handling that doesn’t involve praying to the YAML gods and sacrificing a virgin bracket.</p>\n<p>In this talk, you’ll see how to:\n- Write infrastructure automation that your IDE actually understands\n- Debug with real stack traces instead of <code>\"ERROR: The task includes an option with an undefined variable\"</code>\n- Use actual Python conditionals instead of <code>when: ansible_os_family == \"Debian\" and not (ansible_distribution == \"Ubuntu\" and ansible_distribution_version is version('20.04', '>='))</code>\n- Import and reuse code like a civilized developer, not copy-paste playbooks like it’s 1999\n- Test your infrastructure code with <code>pytest</code>, not <em>\"let’s run it in staging and see what breaks\"</em></p>\n<p>We’ll explore how a typical Ansible playbook can be transformed into clean, maintainable Python with PyInfra, shrinking from 500 lines of YAML to 50 lines of readable code. You’ll discover the joy of list comprehensions over <code>with_items</code>, and the power of deployment logic that can actually <em>think</em>.</p>\n<p>Stop treating your infrastructure like a configuration file. It’s 2026—your servers deserve better than YAML. They deserve Python.</p>\n<p><strong>Warning:</strong> This talk may cause uncontrollable urges to refactor all your Ansible playbooks. Side effects include increased productivity, better sleep, and colleagues actually understanding your infrastructure code.</p>\n<p>Link to the marp: https://marp.kalvad.com/fosdem_2026 (gifs are not working in pdf)</p>",
+    "abstract_plain": "Remember when we said \"Infrastructure as Code\"? Somehow, the industry heard \"Infrastructure as YAML\" and ran with it. Now we're drowning in a sea of indentation-sensitive, template-riddled, Jinja2-abused configuration files that make even the most battle-hardened sysadmins weep into their mechanical keyboards.\n\nEnter PyInfra—where your infrastructure is actually code. Real Python. With loops that don’t require learning a DSL. With functions that are... wait for it... actual functions. With error handling that doesn’t involve praying to the YAML gods and sacrificing a virgin bracket.\n\nIn this talk, you’ll see how to:\n- Write infrastructure automation that your IDE actually understands\n- Debug with real stack traces instead of \"ERROR: The task includes an option with an undefined variable\"\n- Use actual Python conditionals instead of when: ansible_os_family == \"Debian\" and not (ansible_distribution == \"Ubuntu\" and ansible_distribution_version is version('20.04', '>='))\n- Import and reuse code like a civilized developer, not copy-paste playbooks like it’s 1999\n- Test your infrastructure code with pytest, not \"let’s run it in staging and see what breaks\"\n\nWe’ll explore how a typical Ansible playbook can be transformed into clean, maintainable Python with PyInfra, shrinking from 500 lines of YAML to 50 lines of readable code. You’ll discover the joy of list comprehensions over with_items, and the power of deployment logic that can actually think.\n\nStop treating your infrastructure like a configuration file. It’s 2026—your servers deserve better than YAML. They deserve Python.\n\nWarning: This talk may cause uncontrollable urges to refactor all your Ansible playbooks. Side effects include increased productivity, better sleep, and colleagues actually understanding your infrastructure code.\n\nLink to the marp: https://marp.kalvad.com/fosdem_2026 (gifs are not working in pdf)",
+    "description_html": null,
+    "description_plain": null,
+    "speakers": [
+      {
+        "name": "Loïc Tosser \"wowi42\"",
+        "fosdem_profile_url": "https://fosdem.org/2026/schedule/speaker/loic_tosser_wowi42/",
+        "person_id": 6075
+      }
+    ],
+    "video_recordings": [
+      {
+        "url": "https://video.fosdem.org/2026/ua2220/VEQTLH-infrastructure-as-python.av1.webm",
+        "label": "Video recording (AV1/WebM; preferred) - 197.6 MB"
+      },
+      {
+        "url": "https://video.fosdem.org/2026/ua2220/VEQTLH-infrastructure-as-python.mp4",
+        "label": "Video recording (MP4; for legacy systems) - 603.9 MB"
+      }
+    ],
+    "slides": [],
+    "feedback_url": "https://pretalx.fosdem.org/fosdem-2026/talk/VEQTLH/feedback/",
+    "other_links": [],
+    "sources": [
+      "https://fosdem.org/2026/schedule/event/VEQTLH-infrastructure-as-python/",
+      "https://fosdem.org/2026/schedule/xml"
+    ]
+  },
+  {
+    "title": "Ducks to the rescue - ETL using Python and DuckDB",
+    "subtitle": null,
+    "event_url": "https://fosdem.org/2026/schedule/event/S7RELZ-ducks_to_the_rescue_-_etl_using_python_and_duckdb/",
+    "event_slug": "S7RELZ-ducks_to_the_rescue_-_etl_using_python_and_duckdb",
+    "fosdem_event_id": "8886",
+    "guid": "91527975-d8f9-5b6c-9dac-c9f1f70019e6",
+    "date": "2026-01-31T17:00:00+01:00",
+    "start_local": "17:00",
+    "end_local": "2026-01-31T17:30:00+01:00",
+    "day": "Saturday",
+    "duration": "00:30",
+    "room": "UA2.220 (Guillissen)",
+    "track": "Python",
+    "talk_type": "devroom",
+    "language": "en",
+    "abstract_html": "<p><em>Summary:</em></p>\n<p>ETL stands for \"extract, transform, load\" and is a synonym for moving data around. This has traditionally often required managing complex systems in the cloud or large data centers. The talk will demonstrate how all this can be greatly simplified by applying modern tools for the task: Python and DuckDB, both open source and readily available to run on most systems - even your notebook.</p>\n<p><em>Description:</em></p>\n<p><strong>ETL</strong> stands for \"extract, transform, load\" and is a synonym for moving data from one system to another. </p>\n<p>Traditionally, ETL was done in exactly that order: first you extract the data you want to process, then you transform it and then you load it into the target system. More modern approaches based on data lakes, swap the T and L, since transformation is more efficiently done in a database system, especially when it comes to large volumes of data.</p>\n<p>In order to make all this work, the usual approach is to have a workflow system, taking care of managing all the intermediate steps, a large data lake database and distributed storage systems. This results in lots of complexity, need for system/cluster administration and maintenance.</p>\n<p>Now, with today's computers, most data sizes used in ETL no longer need all this complexity. Even notebooks or single VMs can handle the load, when used with external object storage, so all you really just need is the right software stack to manage your ETL - without all the overhead:</p>\n<ul>\n<li>\n<p><strong>Python</strong> has grown to be the number one programming language on the planet and is especially well suited for integration work due to its many readily available connectors to plenty of backend systems. It often comes preinstalled on Linux machines and is easy to install on most other systems.</p>\n</li>\n<li>\n<p><strong>DuckDB</strong> has emerged as one of the most capable embedded OLAP database systems and supports data lakes with the DuckLake extension, right out of the box. Installation is just a <code>uv add duckdb</code> away.</p>\n</li>\n</ul>\n<p>Both can be run on the same machine and are very resource friendly.</p>\n<p>The talk will give an overview of the typical steps involved in ETL processes, give a short intro to DuckDB and showcase how DuckDB can be put to good use when implementing ETL processes. If time permits, I can also cover a few advanced topics addressing optimization strategies.</p>\n<p><em>Resources:</em></p>\n<ul>\n<li>\n<p><a href=\"https://www.python.org/\">Python.org</a></p>\n</li>\n<li>\n<p><a href=\"https://duckdb.org/\">DuckDB – An in-process SQL OLAP database management system</a></p>\n</li>\n</ul>",
+    "abstract_plain": "Summary:\n\nETL stands for \"extract, transform, load\" and is a synonym for moving data around. This has traditionally often required managing complex systems in the cloud or large data centers. The talk will demonstrate how all this can be greatly simplified by applying modern tools for the task: Python and DuckDB, both open source and readily available to run on most systems - even your notebook.\n\nDescription:\n\nETL stands for \"extract, transform, load\" and is a synonym for moving data from one system to another.\n\nTraditionally, ETL was done in exactly that order: first you extract the data you want to process, then you transform it and then you load it into the target system. More modern approaches based on data lakes, swap the T and L, since transformation is more efficiently done in a database system, especially when it comes to large volumes of data.\n\nIn order to make all this work, the usual approach is to have a workflow system, taking care of managing all the intermediate steps, a large data lake database and distributed storage systems. This results in lots of complexity, need for system/cluster administration and maintenance.\n\nNow, with today's computers, most data sizes used in ETL no longer need all this complexity. Even notebooks or single VMs can handle the load, when used with external object storage, so all you really just need is the right software stack to manage your ETL - without all the overhead:\n\n- Python has grown to be the number one programming language on the planet and is especially well suited for integration work due to its many readily available connectors to plenty of backend systems. It often comes preinstalled on Linux machines and is easy to install on most other systems.\n\n- DuckDB has emerged as one of the most capable embedded OLAP database systems and supports data lakes with the DuckLake extension, right out of the box. Installation is just a uv add duckdb away.\n\nBoth can be run on the same machine and are very resource friendly.\n\nThe talk will give an overview of the typical steps involved in ETL processes, give a short intro to DuckDB and showcase how DuckDB can be put to good use when implementing ETL processes. If time permits, I can also cover a few advanced topics addressing optimization strategies.\n\nResources:\n\n- Python.org\n\n- DuckDB – An in-process SQL OLAP database management system",
+    "description_html": null,
+    "description_plain": null,
+    "speakers": [
+      {
+        "name": "Marc-André Lemburg",
+        "fosdem_profile_url": "https://fosdem.org/2026/schedule/speaker/marc-andre_lemburg/",
+        "person_id": 1630
+      }
+    ],
+    "video_recordings": [
+      {
+        "url": "https://video.fosdem.org/2026/ua2220/S7RELZ-ducks_to_the_rescue_-_etl_using_python_and_duckdb.av1.webm",
+        "label": "Video recording (AV1/WebM; preferred) - 119.4 MB"
+      },
+      {
+        "url": "https://video.fosdem.org/2026/ua2220/S7RELZ-ducks_to_the_rescue_-_etl_using_python_and_duckdb.mp4",
+        "label": "Video recording (MP4; for legacy systems) - 544.9 MB"
+      }
+    ],
+    "slides": [
+      {
+        "url": "https://fosdem.org/2026/events/attachments/S7RELZ-ducks_to_the_rescue_-_etl_using_python_and_duckdb/slides/267095/fosdem-20_fwmer9v.pdf",
+        "label": "Slides for the talk"
+      }
+    ],
+    "feedback_url": "https://pretalx.fosdem.org/fosdem-2026/talk/S7RELZ/feedback/",
+    "other_links": [],
+    "sources": [
+      "https://fosdem.org/2026/schedule/event/S7RELZ-ducks_to_the_rescue_-_etl_using_python_and_duckdb/",
+      "https://fosdem.org/2026/schedule/xml"
+    ]
+  },
+  {
+    "title": "Is it time for a Django Admin rewrite? If so, how?",
+    "subtitle": null,
+    "event_url": "https://fosdem.org/2026/schedule/event/UBNWNL-django-admin-deux/",
+    "event_slug": "UBNWNL-django-admin-deux",
+    "fosdem_event_id": "7695",
+    "guid": "645393a2-a98a-564f-b7f6-fb2d6bcb6ff0",
+    "date": "2026-01-31T17:30:00+01:00",
+    "start_local": "17:30",
+    "end_local": "2026-01-31T18:00:00+01:00",
+    "day": "Saturday",
+    "duration": "00:30",
+    "room": "UA2.220 (Guillissen)",
+    "track": "Python",
+    "talk_type": "devroom",
+    "language": "en",
+    "abstract_html": "<p><a href=\"https://www.djangoproject.com\">Django</a>'s built-in admin is powerful, but it's essentially a separate framework within Django and it's 20 years old.</p>\n<p>Wouldn't it be nice to be able to work with an admin interface that works like the rest of Django, built on generic CBVs, plugins, and view factories? <a href=\"https://github.com/jazzband/django-admin2\">Django-Admin2</a>, was an attempt at doing just that and it was a fairly successful ptoject.</p>\n<p>10 years later, after looking at reviving that project, I realized we needed a fresh approach: Meet <a href=\"https://codeberg.org/emmaDelescolle/django-admin-deux\">Django-Admin-Deux</a>: a proof-of-concept Django admin replacement where CRUD operations are just actions, knowledge transfers both ways, and everything feels like Django.</p>\n<p>Let's have a look at what python features and architecture makes this possible</p>",
+    "abstract_plain": "Django's built-in admin is powerful, but it's essentially a separate framework within Django and it's 20 years old.\n\nWouldn't it be nice to be able to work with an admin interface that works like the rest of Django, built on generic CBVs, plugins, and view factories? Django-Admin2, was an attempt at doing just that and it was a fairly successful ptoject.\n\n10 years later, after looking at reviving that project, I realized we needed a fresh approach: Meet Django-Admin-Deux: a proof-of-concept Django admin replacement where CRUD operations are just actions, knowledge transfers both ways, and everything feels like Django.\n\nLet's have a look at what python features and architecture makes this possible",
+    "description_html": null,
+    "description_plain": null,
+    "speakers": [
+      {
+        "name": "Emma Delescolle",
+        "fosdem_profile_url": "https://fosdem.org/2026/schedule/speaker/emma_delescolle/",
+        "person_id": 5731
+      }
+    ],
+    "video_recordings": [
+      {
+        "url": "https://video.fosdem.org/2026/ua2220/UBNWNL-django-admin-deux.av1.webm",
+        "label": "Video recording (AV1/WebM; preferred) - 96.0 MB"
+      },
+      {
+        "url": "https://video.fosdem.org/2026/ua2220/UBNWNL-django-admin-deux.mp4",
+        "label": "Video recording (MP4; for legacy systems) - 651.0 MB"
+      }
+    ],
+    "slides": [],
+    "feedback_url": "https://pretalx.fosdem.org/fosdem-2026/talk/UBNWNL/feedback/",
+    "other_links": [
+      {
+        "url": "https://levit-url.cc/admin-deux",
+        "label": "Slides"
+      }
+    ],
+    "sources": [
+      "https://fosdem.org/2026/schedule/event/UBNWNL-django-admin-deux/",
+      "https://fosdem.org/2026/schedule/xml"
+    ]
+  },
+  {
+    "title": "Building a sovereign digital workplace with the help of Python, an example of the french administration",
+    "subtitle": null,
+    "event_url": "https://fosdem.org/2026/schedule/event/L7NG9J-building_a_sovereign_digital_workplace_with_the_help_of_python_an_example_of_the/",
+    "event_slug": "L7NG9J-building_a_sovereign_digital_workplace_with_the_help_of_python_an_example_of_the",
+    "fosdem_event_id": "8037",
+    "guid": "dfb37a35-8d23-546b-9f87-fb8e6deeea1c",
+    "date": "2026-01-31T18:00:00+01:00",
+    "start_local": "18:00",
+    "end_local": "2026-01-31T18:30:00+01:00",
+    "day": "Saturday",
+    "duration": "00:30",
+    "room": "UA2.220 (Guillissen)",
+    "track": "Python",
+    "talk_type": "devroom",
+    "language": "en",
+    "abstract_html": "<p>The French digital agency (DINUM) has undertaken to develop an open-source collaborative digital workplace to make the work of public servants simpler and more effective.</p>\n<p>This collaborative digital workplace is distributed under an open-source license to allow anyone who wishes to take its applications and integrate them into their preferred tools.</p>\n<p>By participating in existing open-source communities, the digital workplace enables the emergence of digital commons that facilitate independence for those who wish to deploy and use them.</p>\n<p>Designed with a modular approach, it can be partially or progressively adopted or complement an existing offer.</p>\n<p>I propose to present two applications, both technically and functionally, that are integrated into this collaborative suite:</p>\n<ul>\n<li>\n<p>Collaborative editing and documentation: The Suite <a href=\"https://github.com/suitenumerique/docs\">Docs</a>, based on Prosemirror and Blocknotejs. Developed jointly with Germany and the Netherlands.</p>\n</li>\n<li>\n<p>File sharing: <a href=\"https://github.com/suitenumerique/drive\">Drive</a></p>\n</li>\n</ul>\n<p>These applications share the same technical stack, which relies on Python and the Django framework, Django Rest Framework, and PostgreSQL.</p>\n<p>Beyond a list of libraries used, I will present the quality processes we have implemented, the complete workflow from the idea of a new feature to its implementation and deployment. I will share our dev handbook (also under an open-source license) that compiles our best practices.</p>\n<p>How what could be qualified as a \"Boring Stack\" (meaning proven and battle-tested) allows us to focus on solving complex problems.</p>",
+    "abstract_plain": "The French digital agency (DINUM) has undertaken to develop an open-source collaborative digital workplace to make the work of public servants simpler and more effective.\n\nThis collaborative digital workplace is distributed under an open-source license to allow anyone who wishes to take its applications and integrate them into their preferred tools.\n\nBy participating in existing open-source communities, the digital workplace enables the emergence of digital commons that facilitate independence for those who wish to deploy and use them.\n\nDesigned with a modular approach, it can be partially or progressively adopted or complement an existing offer.\n\nI propose to present two applications, both technically and functionally, that are integrated into this collaborative suite:\n\n- Collaborative editing and documentation: The Suite Docs, based on Prosemirror and Blocknotejs. Developed jointly with Germany and the Netherlands.\n\n- File sharing: Drive\n\nThese applications share the same technical stack, which relies on Python and the Django framework, Django Rest Framework, and PostgreSQL.\n\nBeyond a list of libraries used, I will present the quality processes we have implemented, the complete workflow from the idea of a new feature to its implementation and deployment. I will share our dev handbook (also under an open-source license) that compiles our best practices.\n\nHow what could be qualified as a \"Boring Stack\" (meaning proven and battle-tested) allows us to focus on solving complex problems.",
+    "description_html": null,
+    "description_plain": null,
+    "speakers": [
+      {
+        "name": "Manuel Raynaud",
+        "fosdem_profile_url": "https://fosdem.org/2026/schedule/speaker/manuel_raynaud/",
+        "person_id": 6087
+      }
+    ],
+    "video_recordings": [
+      {
+        "url": "https://video.fosdem.org/2026/ua2220/L7NG9J-building_a_sovereign_digital_workplace_with_the_help_of_python_an_example_of_the.av1.webm",
+        "label": "Video recording (AV1/WebM; preferred) - 88.4 MB"
+      },
+      {
+        "url": "https://video.fosdem.org/2026/ua2220/L7NG9J-building_a_sovereign_digital_workplace_with_the_help_of_python_an_example_of_the.mp4",
+        "label": "Video recording (MP4; for legacy systems) - 691.2 MB"
+      }
+    ],
+    "slides": [],
+    "feedback_url": "https://pretalx.fosdem.org/fosdem-2026/talk/L7NG9J/feedback/",
+    "other_links": [
+      {
+        "url": "https://docs.numerique.gouv.fr/docs/1aa048d2-cdf9-4c0d-8499-dd3dac4f2586/",
+        "label": "Presentation support"
+      }
+    ],
+    "sources": [
+      "https://fosdem.org/2026/schedule/event/L7NG9J-building_a_sovereign_digital_workplace_with_the_help_of_python_an_example_of_the/",
+      "https://fosdem.org/2026/schedule/xml"
+    ]
+  },
+  {
+    "title": "Lightning Talks",
+    "subtitle": null,
+    "event_url": "https://fosdem.org/2026/schedule/event/YYTRKQ-lightning_talks/",
+    "event_slug": "YYTRKQ-lightning_talks",
+    "fosdem_event_id": "9704",
+    "guid": "b552f055-a1de-5e98-9ee0-1ae5de8e27ca",
+    "date": "2026-01-31T18:30:00+01:00",
+    "start_local": "18:30",
+    "end_local": "2026-01-31T19:00:00+01:00",
+    "day": "Saturday",
+    "duration": "00:30",
+    "room": "UA2.220 (Guillissen)",
+    "track": "Python",
+    "talk_type": "devroom",
+    "language": "en",
+    "abstract_html": "<p>After the success of last year's impromptu lightning talks session, we will have an official one in the Python Devroom for 2026.</p>\n<p>Please submit your talks using this form:</p>\n<ul>\n<li>\n<p><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfh1zpbP6KgMmexQeT6jlcX1_o8W26zovBUVVudxopBMfjGsg/viewform?usp=header\">Lightning Talk Submission Form</a></p>\n</li>\n<li>\n<p>The form will be opened for submissions at around 14:00 CET on Saturday, Jan 31, 2026.</p>\n</li>\n</ul>\n<p>Lightning Talks are at most 5 minutes and should be Python related.</p>\n<p>Note: All presentations in this slot will be recorded and made available under a CC-BY license.</p>\n<p>Thank you,\nPython Devroom Organizers</p>",
+    "abstract_plain": "After the success of last year's impromptu lightning talks session, we will have an official one in the Python Devroom for 2026.\n\nPlease submit your talks using this form:\n\n- Lightning Talk Submission Form\n\n- The form will be opened for submissions at around 14:00 CET on Saturday, Jan 31, 2026.\n\nLightning Talks are at most 5 minutes and should be Python related.\n\nNote: All presentations in this slot will be recorded and made available under a CC-BY license.\n\nThank you,\nPython Devroom Organizers",
+    "description_html": null,
+    "description_plain": null,
+    "speakers": [
+      {
+        "name": "Marc-André Lemburg",
+        "fosdem_profile_url": "https://fosdem.org/2026/schedule/speaker/marc-andre_lemburg/",
+        "person_id": 1630
+      }
+    ],
+    "video_recordings": [
+      {
+        "url": "https://video.fosdem.org/2026/ua2220/YYTRKQ-lightning_talks.av1.webm",
+        "label": "Video recording (AV1/WebM; preferred) - 115.5 MB"
+      },
+      {
+        "url": "https://video.fosdem.org/2026/ua2220/YYTRKQ-lightning_talks.mp4",
+        "label": "Video recording (MP4; for legacy systems) - 595.3 MB"
+      }
+    ],
+    "slides": [],
+    "feedback_url": "https://pretalx.fosdem.org/fosdem-2026/talk/YYTRKQ/feedback/",
+    "other_links": [],
+    "sources": [
+      "https://fosdem.org/2026/schedule/event/YYTRKQ-lightning_talks/",
+      "https://fosdem.org/2026/schedule/xml"
+    ]
+  }
+]

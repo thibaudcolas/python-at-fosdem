@@ -1,0 +1,21 @@
+# Link checking configuration for lychee – https://lychee.cli.rs
+# Run locally with `just check-links`; also runs in CI.
+
+# Sites that block automated checks (401/403/bot detection).
+exclude = [
+  'https://x\.com/.*',
+  'https://www\.linkedin\.com/.*',
+  'https://discord\.com/.*',
+  'https://www\.reuters\.com/.*',
+  'https://www\.researchgate\.net/.*',
+  # Known-broken sources in next-js.md, pending the step-2 sourcing review.
+  'https://nextjs\.org/blog/CVE-2025-55183',
+  'https://nextjs\.org/blog/CVE-2025-55184',
+  'https://nextjs\.org/blog/understanding-react-server-components',
+]
+
+# Theme templates contain Jinja placeholders, not real links.
+exclude_path = ["docs/theme"]
+
+# Accept rate limiting as a non-failure (retries were already attempted).
+accept = [200, 204, 429]

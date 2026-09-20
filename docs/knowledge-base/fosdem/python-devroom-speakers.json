@@ -1,0 +1,1674 @@
+[
+  {
+    "year": 2013,
+    "id": "186",
+    "name": "Saúl Ibarra Corretgé",
+    "talks": [
+      "How do event loops work in Python?"
+    ]
+  },
+  {
+    "year": 2013,
+    "id": "427",
+    "name": "Thierry Carrez",
+    "talks": [
+      "Get a Python job, work on OpenStack"
+    ]
+  },
+  {
+    "year": 2013,
+    "id": "1044",
+    "name": "Ryan Faulkner",
+    "talks": [
+      "Research / Data Analyst"
+    ]
+  },
+  {
+    "year": 2013,
+    "id": "1053",
+    "name": "Jens Timmerman",
+    "talks": [
+      "EasyBuild: building software with ease"
+    ]
+  },
+  {
+    "year": 2013,
+    "id": "1375",
+    "name": "Lionel Dricot",
+    "talks": [
+      "Handling acyclic graphs with liblarch"
+    ]
+  },
+  {
+    "year": 2013,
+    "id": "1381",
+    "name": "Sandro Munda",
+    "talks": [
+      "Detect merge conflicts in realtime"
+    ]
+  },
+  {
+    "year": 2013,
+    "id": "1382",
+    "name": "Vincent Driessen",
+    "talks": [
+      "Lessons learned from creating pleasurable libraries like RQ"
+    ]
+  },
+  {
+    "year": 2013,
+    "id": "1385",
+    "name": "Benoit Chesneau",
+    "talks": [
+      "Gaffer - Application deployement, monitoring and supervision made simple.",
+      "Experimentation in porting the Go concurrency model to Python"
+    ]
+  },
+  {
+    "year": 2013,
+    "id": "1393",
+    "name": "Juan Batiz-Benet",
+    "talks": [
+      "datastore - a key-value store layer of abstraction"
+    ]
+  },
+  {
+    "year": 2013,
+    "id": "1394",
+    "name": "Alexis Métaireau",
+    "talks": [
+      "Astonishing python tricks"
+    ]
+  },
+  {
+    "year": 2013,
+    "id": "1395",
+    "name": "Michel Cervello",
+    "talks": [
+      "Plone, the best python-based CMS"
+    ]
+  },
+  {
+    "year": 2013,
+    "id": "1396",
+    "name": "Till von Ahnen",
+    "talks": [
+      "Visualisation of public available FlightData"
+    ]
+  },
+  {
+    "year": 2013,
+    "id": "1397",
+    "name": "Andrea Crotti",
+    "talks": [
+      "TDD from scratch"
+    ]
+  },
+  {
+    "year": 2013,
+    "id": "1398",
+    "name": "Tarek Ziade",
+    "talks": [
+      "Vaurien The Chaos TCP Proxy"
+    ]
+  },
+  {
+    "year": 2013,
+    "id": "1399",
+    "name": "Kenneth Reitz",
+    "talks": [
+      "Python for Humans"
+    ]
+  },
+  {
+    "year": 2013,
+    "id": "1400",
+    "name": "Victor Stinner",
+    "talks": [
+      "Two projects to optimize Python"
+    ]
+  },
+  {
+    "year": 2013,
+    "id": "1401",
+    "name": "Kenneth Hoste",
+    "talks": [
+      "EasyBuild: building software with ease"
+    ]
+  },
+  {
+    "year": 2014,
+    "id": "186",
+    "name": "Saúl Ibarra Corretgé",
+    "talks": [
+      "Stack switching for fun and profit",
+      "A deep dive into PEP3156, the new asyncio module"
+    ]
+  },
+  {
+    "year": 2014,
+    "id": "1385",
+    "name": "Benoit Chesneau",
+    "talks": [
+      "Concurrent programming with Python and my little experiment"
+    ]
+  },
+  {
+    "year": 2014,
+    "id": "1397",
+    "name": "Andrea Crotti",
+    "talks": [
+      "Generators, or how to step to the infinite and beyond"
+    ]
+  },
+  {
+    "year": 2014,
+    "id": "1707",
+    "name": "Alessandro Molina",
+    "talks": [
+      "Post-mortem Debugging and Web Development"
+    ]
+  },
+  {
+    "year": 2014,
+    "id": "1860",
+    "name": "Floris Bruynooghe",
+    "talks": [
+      "Introduction to py.test fixtures",
+      "Integrating Python and C using CFFI"
+    ]
+  },
+  {
+    "year": 2014,
+    "id": "2146",
+    "name": "Romain Guillebert",
+    "talks": [
+      "How PyPy makes your code run fast",
+      "PyPy : a fast Python Virtual Machine"
+    ]
+  },
+  {
+    "year": 2014,
+    "id": "2147",
+    "name": "Eric Gazoni",
+    "talks": [
+      "OpenPyXL"
+    ]
+  },
+  {
+    "year": 2014,
+    "id": "2148",
+    "name": "Armin Rigo",
+    "talks": [
+      "Using All These Cores: Transactional Memory under the hood (PyPy)"
+    ]
+  },
+  {
+    "year": 2014,
+    "id": "2149",
+    "name": "Nicola Iarocci",
+    "talks": [
+      "Introducing the Eve REST API Framework"
+    ]
+  },
+  {
+    "year": 2014,
+    "id": "2150",
+    "name": "Marc-André Lemburg",
+    "talks": [
+      "The next generation Python Software Foundation (PSF)"
+    ]
+  },
+  {
+    "year": 2014,
+    "id": "2152",
+    "name": "Erik Janssens",
+    "talks": [
+      "SQLAlchemy Drill"
+    ]
+  },
+  {
+    "year": 2014,
+    "id": "2156",
+    "name": "Claude Huchet",
+    "talks": [
+      "Some recipes with Alembic"
+    ]
+  },
+  {
+    "year": 2014,
+    "id": "2160",
+    "name": "Pierre Carbonnelle",
+    "talks": [
+      "Logic Programming in Python"
+    ]
+  },
+  {
+    "year": 2015,
+    "id": "186",
+    "name": "Saúl Ibarra Corretgé",
+    "talks": [
+      "Python, WebRTC and you"
+    ]
+  },
+  {
+    "year": 2015,
+    "id": "1062",
+    "name": "Christopher Webber",
+    "talks": [
+      "Federation and Python webapps"
+    ]
+  },
+  {
+    "year": 2015,
+    "id": "1232",
+    "name": "Pierre-Yves David",
+    "talks": [
+      "Mercurial, with real python bites"
+    ]
+  },
+  {
+    "year": 2015,
+    "id": "1385",
+    "name": "Benoit Chesneau",
+    "talks": [
+      "Customize Gunicorn for your own business."
+    ]
+  },
+  {
+    "year": 2015,
+    "id": "2146",
+    "name": "Romain Guillebert",
+    "talks": [
+      "PyPy and the future of the Python ecosystem"
+    ]
+  },
+  {
+    "year": 2015,
+    "id": "2150",
+    "name": "Marc-André Lemburg",
+    "talks": [
+      "When performance matters ..."
+    ]
+  },
+  {
+    "year": 2015,
+    "id": "2431",
+    "name": "Jonathan Slenders",
+    "talks": [
+      "python-prompt-toolkit / ptpython"
+    ]
+  },
+  {
+    "year": 2015,
+    "id": "2480",
+    "name": "Pierre Denis",
+    "talks": [
+      "Lea, a probability engine in Python"
+    ]
+  },
+  {
+    "year": 2015,
+    "id": "2490",
+    "name": "Laurent Peuch",
+    "talks": [
+      "RedBaron"
+    ]
+  },
+  {
+    "year": 2015,
+    "id": "2500",
+    "name": "Jesús Espino",
+    "talks": [
+      "Understanding CPython (3.4) Objects"
+    ]
+  },
+  {
+    "year": 2015,
+    "id": "2646",
+    "name": "Alejandro Gómez",
+    "talks": [
+      "Gradual Typing in Python"
+    ]
+  },
+  {
+    "year": 2015,
+    "id": "2727",
+    "name": "Juan Riaza",
+    "talks": [
+      "Dive into Scrapy"
+    ]
+  },
+  {
+    "year": 2015,
+    "id": "2749",
+    "name": "Francisco Fernández Castaño",
+    "talks": [
+      "Knowing your garbage collector",
+      "Extending Python, what is the best option for me"
+    ]
+  },
+  {
+    "year": 2015,
+    "id": "2907",
+    "name": "Harry Percival",
+    "talks": [
+      "Let's build a spreadsheet app in Python"
+    ]
+  },
+  {
+    "year": 2015,
+    "id": "2990",
+    "name": "Stéphane Wirtel",
+    "talks": [
+      "Python & PostgreSQL, a Wonderful Wedding"
+    ]
+  },
+  {
+    "year": 2016,
+    "id": "1232",
+    "name": "Pierre-Yves David",
+    "talks": [
+      "Practical execution tricks from 10 years of Mercurial."
+    ]
+  },
+  {
+    "year": 2016,
+    "id": "1385",
+    "name": "Benoit Chesneau",
+    "talks": [
+      "Gunicorn, more than a WSGI server"
+    ]
+  },
+  {
+    "year": 2016,
+    "id": "1687",
+    "name": "Ludovic Gasc",
+    "talks": [
+      "Why, but why, async and await keywords have been included in Python 3.5"
+    ]
+  },
+  {
+    "year": 2016,
+    "id": "2148",
+    "name": "Armin Rigo",
+    "talks": [
+      "Going beyond the CPython C API"
+    ]
+  },
+  {
+    "year": 2016,
+    "id": "2152",
+    "name": "Erik Janssens",
+    "talks": [
+      "Camelot for desktop and mobile"
+    ]
+  },
+  {
+    "year": 2016,
+    "id": "2583",
+    "name": "Jérôme Poisson (Goffi)",
+    "talks": [
+      "Using Python and XMPP to build a decentralized social network"
+    ]
+  },
+  {
+    "year": 2016,
+    "id": "2847",
+    "name": "Andrea Grandi",
+    "talks": [
+      "Factoryboy: Creating data for unit tests in an easy way",
+      "Creating a custom Django Middleware"
+    ]
+  },
+  {
+    "year": 2016,
+    "id": "2990",
+    "name": "Stéphane Wirtel",
+    "talks": [
+      "Exploring our Python Interpreter"
+    ]
+  },
+  {
+    "year": 2016,
+    "id": "3410",
+    "name": "Yuri Numerov",
+    "talks": [
+      "How to (actually) make games with python",
+      "Dealing with past you"
+    ]
+  },
+  {
+    "year": 2016,
+    "id": "3493",
+    "name": "Michael Hrivnak",
+    "talks": [
+      "Managing Python Packages with Pulp"
+    ]
+  },
+  {
+    "year": 2016,
+    "id": "3558",
+    "name": "Jordi Soucheiron",
+    "talks": [
+      "Python tips, tricks and dark magic"
+    ]
+  },
+  {
+    "year": 2016,
+    "id": "3571",
+    "name": "Victor Stinner (haypo)",
+    "talks": [
+      "FAT Python"
+    ]
+  },
+  {
+    "year": 2016,
+    "id": "3660",
+    "name": "Maciej Fijalkowski",
+    "talks": [
+      "How do I pay my bills"
+    ]
+  },
+  {
+    "year": 2016,
+    "id": "3663",
+    "name": "Cyril Roelandt",
+    "talks": [
+      "Guix-tox, a functional version of tox"
+    ]
+  },
+  {
+    "year": 2016,
+    "id": "3664",
+    "name": "Amandine Nayrolles",
+    "talks": [
+      "Introduction to the Pyramid web framework"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "1004",
+    "name": "Jesus M. Gonzalez-Barahona",
+    "talks": [
+      "GrimoireLab"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "2150",
+    "name": "Marc-André Lemburg",
+    "talks": [
+      "Optimization with PuLP"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "2348",
+    "name": "Ben Nuttall",
+    "talks": [
+      "Python and Raspberry Pi"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "2431",
+    "name": "Jonathan Slenders",
+    "talks": [
+      "Python and \"the SOLID principles\"",
+      "prompt_toolkit"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "2782",
+    "name": "Peter Baumann",
+    "talks": [
+      "Python Winding Itself Around Datacubes"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "3077",
+    "name": "Julien Danjou",
+    "talks": [
+      "Storing metrics at scale with Gnocchi"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "3571",
+    "name": "Victor Stinner",
+    "talks": [
+      "How to run a stable benchmark"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "3587",
+    "name": "François Revol",
+    "talks": [
+      "Script the Web with Weboob"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "3930",
+    "name": "José Manuel Ortega",
+    "talks": [
+      "OSINT Tools for Security Auditing"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "3993",
+    "name": "Fridolín Pokorný",
+    "talks": [
+      "Selinon"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "3996",
+    "name": "Ewoud Van Craeynest",
+    "talks": [
+      "Asynchronous programming with Coroutines in Python"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "4086",
+    "name": "Flavien Raynaud",
+    "talks": [
+      "Python Data Structures implementation"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "4283",
+    "name": "Sahil Dua",
+    "talks": [
+      "Introduction to Pandas"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "4298",
+    "name": "Mario Corchero",
+    "talks": [
+      "It's time for datetime"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "4366",
+    "name": "Mansimar Kaur",
+    "talks": [
+      "Webpush notifications for Kinto"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "4410",
+    "name": "Bertrand Chenal",
+    "talks": [
+      "Tanker"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "4421",
+    "name": "Martin Richard",
+    "talks": [
+      "asynctest"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "4428",
+    "name": "Reimar Bauer",
+    "talks": [
+      "MSS - Software for planning research aircraft missions"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "4429",
+    "name": "Yann Gravrand",
+    "talks": [
+      "Hacking midi devices with StepPy"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "4441",
+    "name": "Brian Bouterse",
+    "talks": [
+      "Debugging Hung Python Processes with GDB"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "4442",
+    "name": "Floris Bruynooghe",
+    "talks": [
+      "Cloud Native Python"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "4443",
+    "name": "Julien Tayon",
+    "talks": [
+      "The power of duck typing and linear algrebra"
+    ]
+  },
+  {
+    "year": 2017,
+    "id": "4444",
+    "name": "Brecht Machiels",
+    "talks": [
+      "rinohtype"
+    ]
+  },
+  {
+    "year": 2018,
+    "id": "3571",
+    "name": "Victor Stinner",
+    "talks": [
+      "Python 3: 10 years later"
+    ]
+  },
+  {
+    "year": 2018,
+    "id": "4829",
+    "name": "Stefan Behnel",
+    "talks": [
+      "Lift your Speed Limits with Cython"
+    ]
+  },
+  {
+    "year": 2018,
+    "id": "4847",
+    "name": "Serge Guelton (serge-sans-paille)",
+    "talks": [
+      "Surviving in an Open Source Niche: the Pythran case"
+    ]
+  },
+  {
+    "year": 2018,
+    "id": "4962",
+    "name": "Tarek Ziade",
+    "talks": [
+      "Load testing web services at Mozilla with Molotov"
+    ]
+  },
+  {
+    "year": 2019,
+    "id": "565",
+    "name": "Daniel Izquierdo",
+    "talks": [
+      "Beyond the 10%: analysis of the gender-diversity gap"
+    ]
+  },
+  {
+    "year": 2019,
+    "id": "828",
+    "name": "Peter Czanik",
+    "talks": [
+      "Extending syslog-ng in Python"
+    ]
+  },
+  {
+    "year": 2019,
+    "id": "1086",
+    "name": "Lorna Mitchell",
+    "talks": [
+      "Text Markup to PDF with Python"
+    ]
+  },
+  {
+    "year": 2019,
+    "id": "1538",
+    "name": "Alexander Todorov",
+    "talks": [
+      "How to write pylint plugins"
+    ]
+  },
+  {
+    "year": 2019,
+    "id": "1620",
+    "name": "Radomir Dopieralski",
+    "talks": [
+      "Computer Games with MicroPython"
+    ]
+  },
+  {
+    "year": 2019,
+    "id": "1899",
+    "name": "Jan Verschelde",
+    "talks": [
+      "Solving Polynomial Systems in Python"
+    ]
+  },
+  {
+    "year": 2019,
+    "id": "2470",
+    "name": "Lionel Auroux",
+    "talks": [
+      "Tree matchings with Behavior Trees"
+    ]
+  },
+  {
+    "year": 2019,
+    "id": "2583",
+    "name": "Jérôme Poisson (Goffi)",
+    "talks": [
+      "Salut à Toi: A Python Based Social Network And More"
+    ]
+  },
+  {
+    "year": 2019,
+    "id": "4566",
+    "name": "Mariano Anaya",
+    "talks": [
+      "Demystifying Coroutines and Asynchronous Programming in Python"
+    ]
+  },
+  {
+    "year": 2019,
+    "id": "5857",
+    "name": "Stéphane Bidoul",
+    "talks": [
+      "Discover GraphQL with Python, Graphene and Odoo"
+    ]
+  },
+  {
+    "year": 2019,
+    "id": "5949",
+    "name": "Moisés Guimarães",
+    "talks": [
+      "Mastering Application/Service Configuration"
+    ]
+  },
+  {
+    "year": 2019,
+    "id": "6064",
+    "name": "Nicolas Crocfer",
+    "talks": [
+      "Compute the QOS of your infrastructure with DEPC"
+    ]
+  },
+  {
+    "year": 2019,
+    "id": "6076",
+    "name": "Batuhan Taşkaya",
+    "talks": [
+      "Memory Management in Python"
+    ]
+  },
+  {
+    "year": 2019,
+    "id": "6095",
+    "name": "Marcin Sobczyk",
+    "talks": [
+      "Making your Python code write your Python code"
+    ]
+  },
+  {
+    "year": 2019,
+    "id": "6109",
+    "name": "Joris Geessels",
+    "talks": [
+      "Extending Numba"
+    ]
+  },
+  {
+    "year": 2019,
+    "id": "6162",
+    "name": "Roman Yurchak",
+    "talks": [
+      "Pyodide: scientific Python stack compiled in WebAssembly"
+    ]
+  },
+  {
+    "year": 2019,
+    "id": "6304",
+    "name": "Anthony Olea",
+    "talks": [
+      "Compute the QOS of your infrastructure with DEPC"
+    ]
+  },
+  {
+    "year": 2020,
+    "id": "828",
+    "name": "Peter Czanik",
+    "talks": [
+      "Extending sudo in Python"
+    ]
+  },
+  {
+    "year": 2020,
+    "id": "3077",
+    "name": "Julien Danjou",
+    "talks": [
+      "Production-time Profiling for Python"
+    ]
+  },
+  {
+    "year": 2020,
+    "id": "3993",
+    "name": "Fridolín Pokorný",
+    "talks": [
+      "Thoth - a recommendation engine for Python applications"
+    ]
+  },
+  {
+    "year": 2020,
+    "id": "4186",
+    "name": "Stephen Finucane",
+    "talks": [
+      "Will somebody *please* tell me what's going on?"
+    ]
+  },
+  {
+    "year": 2020,
+    "id": "4289",
+    "name": "Jonathan Slenders",
+    "talks": [
+      "Asyncio: understanding async and await in Python"
+    ]
+  },
+  {
+    "year": 2020,
+    "id": "4847",
+    "name": "Serge Guelton (serge-sans-paille)",
+    "talks": [
+      "The Pythran compiler, 7 years later"
+    ]
+  },
+  {
+    "year": 2020,
+    "id": "5052",
+    "name": "Federico Campoli",
+    "talks": [
+      "repcloud"
+    ]
+  },
+  {
+    "year": 2020,
+    "id": "5949",
+    "name": "Moisés Guimarães",
+    "talks": [
+      "FoxDot and the Summer of 2019"
+    ]
+  },
+  {
+    "year": 2020,
+    "id": "6013",
+    "name": "Miguel-Ángel Fernández",
+    "talks": [
+      "When Python meets GraphQL: Managing contributors identities in your open source project"
+    ]
+  },
+  {
+    "year": 2020,
+    "id": "6064",
+    "name": "Nicolas Crocfer",
+    "talks": [
+      "Follow Your Celery Tasks"
+    ]
+  },
+  {
+    "year": 2020,
+    "id": "6123",
+    "name": "Lionel Lonkap Tsamba",
+    "talks": [
+      "Discover Static Code Analysis in Python with Coala Framework"
+    ]
+  },
+  {
+    "year": 2020,
+    "id": "6631",
+    "name": "Romain Picard",
+    "talks": [
+      "Introduction to Reactive Programming with RxPY"
+    ]
+  },
+  {
+    "year": 2020,
+    "id": "6765",
+    "name": "Adrin Jalali",
+    "talks": [
+      "How to write a scikit-learn compatible estimator/transformer"
+    ]
+  },
+  {
+    "year": 2020,
+    "id": "6891",
+    "name": "Rémy Hubscher",
+    "talks": [
+      "Why is Django 3.0 a revolution for building websites with Python?"
+    ]
+  },
+  {
+    "year": 2020,
+    "id": "6893",
+    "name": "Vincent Perez",
+    "talks": [
+      "Monads in Python: why and how?"
+    ]
+  },
+  {
+    "year": 2020,
+    "id": "7143",
+    "name": "Raphaël Gomès",
+    "talks": [
+      "Boosting Python with Rust"
+    ]
+  },
+  {
+    "year": 2020,
+    "id": "7294",
+    "name": "Tom Christie",
+    "talks": [
+      "Introducing HTTPX"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "2147",
+    "name": "Eric Gazoni",
+    "talks": [
+      "How to get started with GitLab CI and Python",
+      "Escaping the Cargo Cult"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "2214",
+    "name": "Dominik George",
+    "talks": [
+      "AlekSIS"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "2363",
+    "name": "Bernard Tyers",
+    "talks": [
+      "Improving pip for all users"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "4188",
+    "name": "Alejandro Saucedo",
+    "talks": [
+      "Beyond CUDA: GPU Accelerated Python on Cross-Vendor Graphics Cards with Vulkan Kompute"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "7548",
+    "name": "Jason McDonald",
+    "talks": [
+      "Escaping the Cargo Cult"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "7565",
+    "name": "Gajendra Deshpande",
+    "talks": [
+      "Inventing Curriculum using Python and spaCy"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "7570",
+    "name": "Mario García",
+    "talks": [
+      "How to get started with GitLab CI and Python"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "7610",
+    "name": "Benedict Suska",
+    "talks": [
+      "AlekSIS"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "7726",
+    "name": "Fabien Amarger",
+    "talks": [
+      "CubicWeb as a Linked Open Data server"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "7791",
+    "name": "Albert Yumol",
+    "talks": [
+      "Different Approches in Pedagogy in Teaching Data Science with Python"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "7843",
+    "name": "Sebastiaan Zeeff",
+    "talks": [
+      "How Python inserts 'self' into methods"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "7887",
+    "name": "Chin Hwee Ong",
+    "talks": [
+      "Is Rainfall Getting Heavier? Building a Weather Forecasting Pipeline with Singapore Weather Station Data"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "7897",
+    "name": "Cheuk Ho",
+    "talks": [
+      "Don't be Afraid of Async"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "7898",
+    "name": "Haki Benita",
+    "talks": [
+      "Practical advice for using Mypy"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "7913",
+    "name": "Lais Carvalho",
+    "talks": [
+      "From Jupyter Notebook to production code"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "7915",
+    "name": "Hugo Herter",
+    "talks": [
+      "Code reloading techniques in Python"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "7922",
+    "name": "Katherine Michel",
+    "talks": [
+      "Bringing Pinax Back to Life"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "7931",
+    "name": "Nithish Raghunandanan",
+    "talks": [
+      "Creating Data Apps using Pure Python"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "8037",
+    "name": "Matteo Bertucci",
+    "talks": [
+      "How Python inserts 'self' into methods",
+      "Beyond CUDA: GPU Accelerated Python on Cross-Vendor Graphics Cards with Vulkan Kompute",
+      "Code reloading techniques in Python",
+      "From Jupyter Notebook to production code",
+      "Inventing Curriculum using Python and spaCy",
+      "Creating Data Apps using Pure Python"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "8046",
+    "name": "Xithrius",
+    "talks": [
+      "Different Approches in Pedagogy in Teaching Data Science with Python",
+      "Improving pip for all users",
+      "Practical advice for using Mypy",
+      "CubicWeb as a Linked Open Data server",
+      "Don't be Afraid of Async",
+      "AlekSIS",
+      "Bringing Pinax Back to Life",
+      "Is Rainfall Getting Heavier? Building a Weather Forecasting Pipeline with Singapore Weather Station Data",
+      "How Python inserts 'self' into methods"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "8349",
+    "name": "Tom Teichler",
+    "talks": [
+      "AlekSIS"
+    ]
+  },
+  {
+    "year": 2021,
+    "id": "8369",
+    "name": "Jonathan Weth",
+    "talks": [
+      "AlekSIS"
+    ]
+  },
+  {
+    "year": 2022,
+    "id": "7107",
+    "name": "Mehdi Raddadi",
+    "talks": [
+      "Implementing and managing feature flags"
+    ]
+  },
+  {
+    "year": 2022,
+    "id": "7503",
+    "name": "Maarten De Paepe",
+    "talks": [
+      "Mimics - Records operations to replay them later"
+    ]
+  },
+  {
+    "year": 2022,
+    "id": "7726",
+    "name": "Fabien Amarger",
+    "talks": [
+      "CubicWeb: bootstraping a web-application from RDF data"
+    ]
+  },
+  {
+    "year": 2022,
+    "id": "7843",
+    "name": "Sebastiaan Zeeff",
+    "talks": [
+      "Introducing Asynchronous SQLAlchemy"
+    ]
+  },
+  {
+    "year": 2022,
+    "id": "7898",
+    "name": "Haki Benita",
+    "talks": [
+      "Handling Concurrency in Web Application"
+    ]
+  },
+  {
+    "year": 2022,
+    "id": "8309",
+    "name": "Julin Shaji",
+    "talks": [
+      "Messing with unicode"
+    ]
+  },
+  {
+    "year": 2022,
+    "id": "8476",
+    "name": "Daniel Moura",
+    "talks": [
+      "SPyQL - SQL with Python in the middle"
+    ]
+  },
+  {
+    "year": 2022,
+    "id": "8515",
+    "name": "Francesco Tisiot",
+    "talks": [
+      "Get to know Apache Kafka with Jupyter Notebooks"
+    ]
+  },
+  {
+    "year": 2022,
+    "id": "8644",
+    "name": "Jerry Pussinen",
+    "talks": [
+      "Sleep better with type-safe Python"
+    ]
+  },
+  {
+    "year": 2023,
+    "id": "2150",
+    "name": "Marc-André Lemburg",
+    "talks": [
+      "An introduction to async programming"
+    ]
+  },
+  {
+    "year": 2023,
+    "id": "2888",
+    "name": "Mat Booth",
+    "talks": [
+      "Realtime 3D Graphics on a MicroPython ESP32"
+    ]
+  },
+  {
+    "year": 2023,
+    "id": "4097",
+    "name": "Vadim Markovtsev",
+    "talks": [
+      "Accelerating object serialization by using constraints"
+    ]
+  },
+  {
+    "year": 2023,
+    "id": "6388",
+    "name": "Anastasiia Tymoshchuk",
+    "talks": [
+      "Continuous Documentation for Your Code"
+    ]
+  },
+  {
+    "year": 2023,
+    "id": "7897",
+    "name": "Cheuk Ho",
+    "talks": [
+      "Will PyScript replace Django?"
+    ]
+  },
+  {
+    "year": 2023,
+    "id": "7915",
+    "name": "Hugo Herter",
+    "talks": [
+      "AMENDMENT Code reloading techniques in Python"
+    ]
+  },
+  {
+    "year": 2023,
+    "id": "9141",
+    "name": "Pedro Holanda",
+    "talks": [
+      "DuckDB: Bringing analytical SQL directly to your Python shell."
+    ]
+  },
+  {
+    "year": 2023,
+    "id": "9148",
+    "name": "Wouter van Ooijen",
+    "talks": [
+      "An introduction to MicroPython"
+    ]
+  },
+  {
+    "year": 2023,
+    "id": "9253",
+    "name": "Sam Thursfield",
+    "talks": [
+      "Simple, open, music recommendations with Python"
+    ]
+  },
+  {
+    "year": 2023,
+    "id": "9341",
+    "name": "Tuana Celik",
+    "talks": [
+      "Building a Semantic Search Application in Python, Using Haystack"
+    ]
+  },
+  {
+    "year": 2023,
+    "id": "9387",
+    "name": "Yaniv  Ben Hemo",
+    "talks": [
+      "How to build an event-driven application in Python"
+    ]
+  },
+  {
+    "year": 2023,
+    "id": "9389",
+    "name": "David Tippett",
+    "talks": [
+      "Python Logging Like Your Job Depends on It"
+    ]
+  },
+  {
+    "year": 2023,
+    "id": "9639",
+    "name": "Max Kahan",
+    "talks": [
+      "pip install malware"
+    ]
+  },
+  {
+    "year": 2023,
+    "id": "9721",
+    "name": "Vendula Poncova",
+    "talks": [
+      "Talk to DBus from a Python application"
+    ]
+  },
+  {
+    "year": 2024,
+    "id": "1488",
+    "name": "Tatiana Al-Chueyr",
+    "talks": [
+      "Data workflows: translating dbt to Apache Airflow"
+    ]
+  },
+  {
+    "year": 2024,
+    "id": "1563",
+    "name": "Jarek Potiuk",
+    "talks": [
+      "`New` Workflow Orchestrator in town: \"Apache Airflow 2.x\""
+    ]
+  },
+  {
+    "year": 2024,
+    "id": "1588",
+    "name": "Johannes Bechberger",
+    "talks": [
+      "Python 3.12's new monitoring and debugging API"
+    ]
+  },
+  {
+    "year": 2024,
+    "id": "1630",
+    "name": "Marc-André Lemburg",
+    "talks": [
+      "Match all things Python: Parsing structured content with Python's new match statement"
+    ]
+  },
+  {
+    "year": 2024,
+    "id": "1802",
+    "name": "Denny Biasiolli",
+    "talks": [
+      "Django migrations, friend or foe? Optimize them for testing"
+    ]
+  },
+  {
+    "year": 2024,
+    "id": "1921",
+    "name": "Pascal Chambon",
+    "talks": [
+      "Powerflexible cryptography with Python and Flightbox!"
+    ]
+  },
+  {
+    "year": 2024,
+    "id": "1934",
+    "name": "Pierre Denis",
+    "talks": [
+      "A murder party with Lea"
+    ]
+  },
+  {
+    "year": 2024,
+    "id": "1973",
+    "name": "Marija Selakovic",
+    "talks": [
+      "How to Use Private Data in Generative AI: End-to-End Solution for Retrieval Augmented Generation with CrateDB and LangChain"
+    ]
+  },
+  {
+    "year": 2024,
+    "id": "2122",
+    "name": "Cheuk Ting Ho",
+    "talks": [
+      "Making Python safer than ever"
+    ]
+  },
+  {
+    "year": 2024,
+    "id": "2136",
+    "name": "Jonathan Weth",
+    "talks": [
+      "A slow migration from Django templates to Vue+GraphQL"
+    ]
+  },
+  {
+    "year": 2024,
+    "id": "2150",
+    "name": "Jérôme Poisson (Goffi)",
+    "talks": [
+      "How I've Built a Web Frontend for a Federated Communication Tool with Brython"
+    ]
+  },
+  {
+    "year": 2024,
+    "id": "2235",
+    "name": "Nigel",
+    "talks": [
+      "How can we trust 3rd party code? Using Python to understand the trust relationships within the python ecosystem"
+    ]
+  },
+  {
+    "year": 2024,
+    "id": "2327",
+    "name": "Denis Laxalde",
+    "talks": [
+      "Annotated, a type hint you can use at runtime"
+    ]
+  },
+  {
+    "year": 2024,
+    "id": "2340",
+    "name": "Kemal Akkoyun",
+    "talks": [
+      "Profiling Python with eBPF: A New Frontier in Performance Analysis"
+    ]
+  },
+  {
+    "year": 2024,
+    "id": "2393",
+    "name": "Christian Kurze",
+    "talks": [
+      "How to Use Private Data in Generative AI: End-to-End Solution for Retrieval Augmented Generation with CrateDB and LangChain"
+    ]
+  },
+  {
+    "year": 2024,
+    "id": "2457",
+    "name": "Dan Phillips",
+    "talks": [
+      "Deploy Your Next Python App with WebAssembly (Wasm): Smaller, Safer, Faster"
+    ]
+  },
+  {
+    "year": 2024,
+    "id": "2831",
+    "name": "Dominik George",
+    "talks": [
+      "A slow migration from Django templates to Vue+GraphQL"
+    ]
+  },
+  {
+    "year": 2025,
+    "id": "1358",
+    "name": "Zbigniew Jędrzejewski-Szmek",
+    "talks": [
+      "Rewriting pyc files for fun and reproducibility"
+    ]
+  },
+  {
+    "year": 2025,
+    "id": "1486",
+    "name": "Hugo Herter",
+    "talks": [
+      "Create A Custom Linux Init in Python"
+    ]
+  },
+  {
+    "year": 2025,
+    "id": "1515",
+    "name": "Pietro Peterlongo",
+    "talks": [
+      "Nim for Pythonistas (and Open Source Lovers)"
+    ]
+  },
+  {
+    "year": 2025,
+    "id": "1630",
+    "name": "Marc-André Lemburg",
+    "talks": [
+      "Advanced parsing of structured data using Python's new match statement",
+      "🐍🐍 Lightning Talks 🐍🐍"
+    ]
+  },
+  {
+    "year": 2025,
+    "id": "2370",
+    "name": "Thibaud Colas",
+    "talks": [
+      "Shifting DX expectations: keeping Django relevant 😬"
+    ]
+  },
+  {
+    "year": 2025,
+    "id": "3670",
+    "name": "Riccardo Magliocchetti",
+    "talks": [
+      "Anatomy of a Python OpenTelemetry instrumentation"
+    ]
+  },
+  {
+    "year": 2025,
+    "id": "3795",
+    "name": "Chris Laffra",
+    "talks": [
+      "PyScript - Python in the Browser"
+    ]
+  },
+  {
+    "year": 2025,
+    "id": "3987",
+    "name": "Katie McLaughlin",
+    "talks": [
+      "Understanding programming peculiarities"
+    ]
+  },
+  {
+    "year": 2025,
+    "id": "3995",
+    "name": "David Vujic",
+    "talks": [
+      "Python Monorepos: The Polylith Developer Experience"
+    ]
+  },
+  {
+    "year": 2025,
+    "id": "4033",
+    "name": "Raphael Javaux",
+    "talks": [
+      "Effortless Distributed Computing in Python"
+    ]
+  },
+  {
+    "year": 2025,
+    "id": "4165",
+    "name": "Johan Herland",
+    "talks": [
+      "FawltyDeps: Finding undeclared and unused dependencies in your notebooks and projects"
+    ]
+  },
+  {
+    "year": 2025,
+    "id": "4400",
+    "name": "Safwan Rahman",
+    "talks": [
+      "Python MonkeyPatch: Debugging Python Applications + Production Hotfix"
+    ]
+  },
+  {
+    "year": 2025,
+    "id": "4617",
+    "name": "Rok Mihevc",
+    "talks": [
+      "What can PyArrow do for you - Array interchange, storage, compute and transport"
+    ]
+  },
+  {
+    "year": 2025,
+    "id": "4725",
+    "name": "Jochen Wersdörfer",
+    "talks": [
+      "Skip the Overhead: Lean Web Development with Django"
+    ]
+  },
+  {
+    "year": 2025,
+    "id": "4779",
+    "name": "Alenka Frim",
+    "talks": [
+      "What can PyArrow do for you - Array interchange, storage, compute and transport"
+    ]
+  },
+  {
+    "year": 2025,
+    "id": "4831",
+    "name": "Colin Dean",
+    "talks": [
+      "make python devex: Towards Red-Green-Refactor in 1 Command with an Old Tool"
+    ]
+  },
+  {
+    "year": 2026,
+    "id": "1630",
+    "name": "Marc-André Lemburg",
+    "talks": [
+      "Ducks to the rescue - ETL using Python and DuckDB",
+      "Lightning Talks"
+    ]
+  },
+  {
+    "year": 2026,
+    "id": "5580",
+    "name": "Jacob Coffee",
+    "talks": [
+      "The Bakery: How PEP810 sped up my bread operations business"
+    ]
+  },
+  {
+    "year": 2026,
+    "id": "5731",
+    "name": "Emma Delescolle",
+    "talks": [
+      "Is it time for a Django Admin rewrite? If so, how?"
+    ]
+  },
+  {
+    "year": 2026,
+    "id": "5784",
+    "name": "Ruben Hias",
+    "talks": [
+      "The GIL and API Performance: Past, Present, and Free-Threaded Future"
+    ]
+  },
+  {
+    "year": 2026,
+    "id": "6075",
+    "name": "Loïc Tosser \"wowi42\"",
+    "talks": [
+      "PyInfra: Because Your Infrastructure Deserves Real Code in Python, Not YAML Soup"
+    ]
+  },
+  {
+    "year": 2026,
+    "id": "6087",
+    "name": "Manuel Raynaud",
+    "talks": [
+      "Building a sovereign digital workplace with the help of Python, an example of the french administration"
+    ]
+  },
+  {
+    "year": 2026,
+    "id": "6553",
+    "name": "Jarek Potiuk",
+    "talks": [
+      "Modern Python monorepo with `uv`, `workspaces`, `prek` and shared libraries"
+    ]
+  }
+]
