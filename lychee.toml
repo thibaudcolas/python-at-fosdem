@@ -25,7 +25,8 @@ exclude = [
 ]
 
 # Theme templates contain Jinja placeholders, not real links.
-exclude_path = ["docs/theme"]
+# The FOSDEM XML cache is raw upstream data (with dead/relative links), not our own content.
+exclude_path = ["docs/theme", "tools/_fosdem_xml_cache"]
 
 # Accept rate limiting as a non-failure (retries were already attempted).
 accept = [200, 204, 429]
