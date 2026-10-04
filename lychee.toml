@@ -6,6 +6,7 @@ exclude = [
   'https://x\.com/.*',
   'https://www\.linkedin\.com/.*',
   'https://discord\.com/.*',
+  'https://.*\.substack\.com/.*',
   'https://www\.reuters\.com/.*',
   'https://www\.researchgate\.net/.*',
   'https://medium\.com/.*',
