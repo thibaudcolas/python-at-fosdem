@@ -12,6 +12,11 @@ exclude = [
   'https://medium\.com/.*',
   'https://dl\.acm\.org/.*',
   'https://www\.science\.org/.*',
+  # Canva shortlinks share Cloudflare bot management with canva.com: CI runs
+  # from datacenter IPs and gets intermittent 403s on the `.../edit` share
+  # campaign links used in the PyCon DE & PyData 2026 talk notes. The links
+  # resolve fine from a browser; the destination is the same Canva design.
+  'https://canva\.link/.*',
   # Known-broken sources in next-js.md, pending the step-2 sourcing review.
   'https://nextjs\.org/blog/CVE-2025-55183',
   'https://nextjs\.org/blog/CVE-2025-55184',

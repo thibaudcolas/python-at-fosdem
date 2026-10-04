@@ -5,17 +5,14 @@ Information about the devroom proposal 2027 project.
 ## Documents
 
 - [FOSDEM 2027 devroom proposal template](devroom-proposal-template-2027.md) — the FOSDEM proposal form, to fill in.
-- [Draft call for participation](cfp-template-2027.md) — draft CfP for the Python devroom.
+- [Python for social good](proposal-python-social-good.md) — the final devroom proposal, on the "Python for social good" theme.
+- [Python for social good call for participation](cfp-python-social-good-2027.md) — draft CfP for the devroom.
 
-## Theme proposals
+## Theme
 
-Three candidate proposal forms, one per theme. Each is a standalone, paste-ready fill-in of the FOSDEM proposal template; we will submit one.
+We are proposing a Python devroom themed **Python for social good**: a room for Python work of all kinds that is in service of a positive purpose for people, society, and the planet. The theme is broad enough to attract a wide range of participants and speakers, and specific enough that it will not overlap with the Python presence in other devrooms (scientific Python, AI, machine learning).
 
-- [Python beyond AI](proposal-python-beyond-ai.md) — the room for everything in Python that AI-focused devrooms do not cover.
-- [Python for social good](proposal-python-social-good.md) — Python work in service of people and the public: education, accessibility, civic tech, and social impact.
-- [Python (broad theme)](proposal-python-classic.md) — the proven broad Python theme, refreshed with the shared format and community plans.
-
-All three share one angle: the room is a working session of the community that builds and sustains Python, not just a set of talks. Whichever theme FOSDEM selects, we run the room the same way — a themed, discussion-first program with guaranteed lightning talks, deliberate collaboration with neighboring devrooms and with the PSF, EuroPython Society, and Django Software Foundation, and visible community building on site. Each asks for a half day, and is open to being paired with a related devroom or combined with another Python-related proposal.
+Beyond the theme, we are adjusting how the room runs: a themed, discussion-first program with guaranteed lightning talks, deliberate collaboration with neighboring devrooms and with the Python Software Foundation, EuroPython Society, and Django Software Foundation, and visible community building on site. We are asking for a half day, and are open to being paired with a related devroom or combined with another Python-related proposal.
 
 ## References
 

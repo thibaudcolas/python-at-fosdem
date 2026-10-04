@@ -216,7 +216,8 @@ not_in_nav: |
   /agent-skills.md
   /tags.md
   /projects/devroom-proposal-2027/brief.md
-  /projects/devroom-proposal-2027/cfp-template-2027.md
+  /projects/devroom-proposal-2027/cfp-2027.md
+  /projects/devroom-proposal-2027/final-devroom-proposal-2027.md
   /projects/devroom-proposal-2027/devroom-proposal-template-2027.md
 
 nav:
@@ -246,6 +247,5 @@ nav:
       - projects/README.md
       - Devroom proposal 2027:
           - projects/devroom-proposal-2027/README.md
-          - Python beyond AI: projects/devroom-proposal-2027/proposal-python-beyond-ai.md
           - Python for social good: projects/devroom-proposal-2027/proposal-python-social-good.md
-          - Python (broad theme): projects/devroom-proposal-2027/proposal-python-classic.md
+          - Call for participation: projects/devroom-proposal-2027/cfp-python-social-good-2027.md

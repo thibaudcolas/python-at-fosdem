@@ -4,7 +4,7 @@
 
 **Elaborate description (will only be seen by the FOSDEM program team):**
 
-Python has grown to be one of the most used and liked open source programming languages on the planet. It is used in a huge variety of contexts and applications \- ranging from education and scientific research to hardware and web services \- and so the potential topics for the python devroom seem endless.
+Python has grown to be one of the most used and liked open source programming languages on the planet. It is used in a huge variety of contexts and applications - ranging from education and scientific research to hardware and web services - and so the potential topics for the python devroom seem endless.
 
 This year we will focus both on the language itself (new developments, tools and best practices) and its broader applications in education, data science and emerging fields. Examples of these include the following:
 
@@ -14,7 +14,7 @@ This year we will focus both on the language itself (new developments, tools and
 - Performant Python code
 - Making use of 3.13t (free-threaded Python with no GIL lock)
 - Sustainable Python code
-- How to do \<my cool thing\> in Python
+- How to do <my cool thing> in Python
 - Python as a tool for education
 - How to contribute to the Python language
 - Python 3.13, 3.14 ...: what's new?
@@ -48,7 +48,7 @@ Full day (Saturday or Sunday)
 
 **Submitters affinity to the topic**:
 
-My name is Marc-André Lemburg. I am CEO and founder of eGenix.com ([https\://www\.egenix.com](https://www.egenix.com)), a German Python consulting company and have been using Python since 1994\. I am very much based in the Python open source community and try to promote Python wherever I can.
+My name is Marc-André Lemburg. I am CEO and founder of eGenix.com ([https://www.egenix.com](https://www.egenix.com)), a German Python consulting company and have been using Python since 1994. I am very much based in the Python open source community and try to promote Python wherever I can.
 
 As a Python Core Developer, I worked on adding Unicode support to Python (PEP 100), the platform module, authored the Python DB-API 2.0 and made many smaller contributions to the Python Standard Library. I also open sourced a longer list of Python packages called the “mx Extensions”.
 
@@ -58,8 +58,8 @@ I have run the Python Devroom at FOSDEM 2025 together with a small group of volu
 
 **Relevant URLs:**
 
-- Python Homepage: [https\://www\.python.org/](https://www.python.org/)
-- FOSDEM Python Devroom 2025: [https\://archive.fosdem.org/2025/schedule/track/python/](https://archive.fosdem.org/2025/schedule/track/python/)
+- Python Homepage: [https://www.python.org/](https://www.python.org/)
+- FOSDEM Python Devroom 2025: [https://archive.fosdem.org/2025/schedule/track/python/](https://archive.fosdem.org/2025/schedule/track/python/)
 
 **Special Requirements**:
 
