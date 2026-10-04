@@ -200,7 +200,7 @@ A handful of non-Python devrooms host Python content every year, and they are th
 - **[Package Management](https://fosdem.org/2026/schedule/track/package-management/)** and the SBOM/supply-chain devrooms — PyPI, Python packaging, attestations, and dependency analysis come up repeatedly.
 - **[Lightning talks](https://fosdem.org/2024/schedule/track/lightning_talks/)** and the **[main tracks](https://archive.fosdem.org/2024/schedule/track/main_track_k_building/)** occasionally carry Python content, usually better represented in dedicated devrooms.
 
-AI and LLM-adjacent devrooms ([AI Plumbers](https://fosdem.org/2026/schedule/track/ai/), [Low-level AI Engineering and Hacking](https://fosdem.org/2025/schedule/track/low-level-ai-engineering-and-hacking/), AI/ML devrooms) are a growing home for Python content, mostly via PyTorch, ONNX, and Python-based LLM tooling.
+AI and LLM-adjacent devrooms ([AI Plumbers](https://fosdem.org/2026/schedule/track/ai/), [Low-level AI Engineering and Hacking](https://fosdem.org/2025/schedule/track/ai/), AI/ML devrooms) are a growing home for Python content, mostly via PyTorch, ONNX, and Python-based LLM tooling.
 
 ## Borderline and uncertain flags
 

@@ -11,7 +11,7 @@ tags:
 
     This page describes data collected on 2026-09-20. The FOSDEM 2026 schedule is still being amended, so the 2026 counts below are an incomplete snapshot and will change until the schedule is finalized.
 
-The [Python devroom](https://fosdem.org/2026/schedule/track/python/) is the dedicated Python track at FOSDEM. It first appeared in 2013; before that, Python talks were distributed across other rooms and tracks rather than gathered in one place. The track slug has changed over the years — recent editions use `python`, while earlier ones used `python-devroom` (see, for example, the [2025 devroom](https://archive.fosdem.org/2025/schedule/track/python-devroom/)).
+The [Python devroom](https://fosdem.org/2026/schedule/track/python/) is the dedicated Python track at FOSDEM. It first appeared in 2013; before that, Python talks were distributed across other rooms and tracks rather than gathered in one place. The track slug has changed over the years — most editions use `python`, but 2024 used `python-devroom` (see the [2024 devroom](https://archive.fosdem.org/2024/schedule/track/python-devroom/)).
 
 ## Datasets
 

@@ -8,13 +8,20 @@ exclude = [
   'https://discord\.com/.*',
   'https://www\.reuters\.com/.*',
   'https://www\.researchgate\.net/.*',
+  'https://medium\.com/.*',
+  'https://dl\.acm\.org/.*',
+  'https://www\.science\.org/.*',
   # Known-broken sources in next-js.md, pending the step-2 sourcing review.
   'https://nextjs\.org/blog/CVE-2025-55183',
   'https://nextjs\.org/blog/CVE-2025-55184',
   'https://nextjs\.org/blog/understanding-react-server-components',
   # The FOSDEM 2027 talk CfP goes live only after devrooms are accepted, so the
-  # draft Python devroom CfP refers to the URL before it exists.
+  # draft Python devroom CfP refers to the URL before it exists. The
+  # `fosdem.org/submit` shortlink redirects to that same not-yet-live page.
   'https://pretalx\.fosdem\.org/fosdem-2027/cfp',
+  'https://fosdem\.org/submit',
+  # Cited in the devroom-organization page as a deliberately dead archive (404).
+  'https://lists\.fosdem\.org/pipermail/python-devroom/',
 ]
 
 # Theme templates contain Jinja placeholders, not real links.

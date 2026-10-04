@@ -227,7 +227,7 @@ Rooms are as listed on each year's schedule
   [2022 track page](https://archive.fosdem.org/2022/schedule/track/python/))
 - 2023–2025: UD2.218A
   ([2023](https://archive.fosdem.org/2023/schedule/track/python/),
-  [2025](https://archive.fosdem.org/2025/schedule/track/python-devroom/))
+  [2025](https://archive.fosdem.org/2025/schedule/track/python/))
 - 2026: UA2.220 (Guillissen)
   ([track page](https://fosdem.org/2026/schedule/track/python/))
 
