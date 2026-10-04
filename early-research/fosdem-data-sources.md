@@ -13,12 +13,12 @@ source/format inventory. All URLs below were verified live during research unles
 
 ### Machine-readable exports (from each schedule index page)
 
-| Format | URL pattern | Notes |
-| --- | --- | --- |
-| Pentabarf XML (frab) | `/schedule/xml` | Richest export. Verified 200 for **2012–2026**; 404 for 2003–2011. |
-| iCal | `/schedule/ical` | Verified 2025. Overall conference calendar. |
-| xCal | `/schedule/xcal` | Verified 2025. XML-flavoured iCalendar. |
-| Printable PDF | `/schedule/pdf/a4.pdf`, `/schedule/pdf/a3.pdf` | Not machine-friendly. |
+| Format               | URL pattern                                    | Notes                                                              |
+| -------------------- | ---------------------------------------------- | ------------------------------------------------------------------ |
+| Pentabarf XML (frab) | `/schedule/xml`                                | Richest export. Verified 200 for **2012–2026**; 404 for 2003–2011. |
+| iCal                 | `/schedule/ical`                               | Verified 2025. Overall conference calendar.                        |
+| xCal                 | `/schedule/xcal`                               | Verified 2025. XML-flavoured iCalendar.                            |
+| Printable PDF        | `/schedule/pdf/a4.pdf`, `/schedule/pdf/a3.pdf` | Not machine-friendly.                                              |
 
 - Per-track (per-devroom) sub-calendars also exist: `/schedule/track/<slug>.ics` and
   `/schedule/track/<slug>.xcs` (verified for Python in 2017, 2018, 2025).
@@ -58,22 +58,22 @@ other rooms (e.g. 2011 Python talks were in the Data Analytics devroom, AW1.124)
 event index pages for 2008–2012 (`/schedule/events.html`) contain only a handful of
 Python-titled talks (IronPython 2012, scikits.learn 2011, …), not a devroom.
 
-| Year | Devroom exists | Track slug (HTML) | Events (XML) | Room | Room slug (video dir) |
-| --- | --- | --- | --- | --- | --- |
-| 2013 | yes | `python` | — | K.3.401 | `K3401` (folder 404 — see Video) |
-| 2014 | yes | `python` | 16 | K.3.201 | `K3201/Saturday/` |
-| 2015 | yes | `python` | — | H.1301 (Cornil) | `devroom-python/` |
-| 2016 | yes | `python` | 17 | UD2.218A (Chavanne) | `UD2.218A/` |
-| 2017 | yes | `python` | 24 | H.1308 (Rolin), UD2.120 (Chavanne) | `h1308/`, `ud2120/` |
-| 2018 | yes | `python` | — | K.1.105 (La Fontaine) | `k1105/` |
-| 2019 | yes | `python` | 16 | UD2.120 (Chavanne) | `ud2120/` |
-| 2020 | yes | `python` | — | UB2.252A (Lameere) | `UB2.252A (Lameere)/` |
-| 2021 | yes | `python` | 16 | D.python (online edition) | `D.python/` |
-| 2022 | yes | `python` | 18 | D.python (hybrid) | `D.python/` |
-| 2023 | yes | `python` | 14 | UD2.218A | `ud2218a/` |
-| 2024 | yes | `python-devroom` | 30 | UD2.218A | `ud2218a/` |
-| 2025 | yes | `python-devroom` | 16 | UD2.218A | `ud2218a/` |
-| 2026 | yes (scheduled) | `python` | 8 → 16 links | UA2.220 (Guillissen) | — |
+| Year | Devroom exists  | Track slug (HTML) | Events (XML) | Room                               | Room slug (video dir)            |
+| ---- | --------------- | ----------------- | ------------ | ---------------------------------- | -------------------------------- |
+| 2013 | yes             | `python`          | —            | K.3.401                            | `K3401` (folder 404 — see Video) |
+| 2014 | yes             | `python`          | 16           | K.3.201                            | `K3201/Saturday/`                |
+| 2015 | yes             | `python`          | —            | H.1301 (Cornil)                    | `devroom-python/`                |
+| 2016 | yes             | `python`          | 17           | UD2.218A (Chavanne)                | `UD2.218A/`                      |
+| 2017 | yes             | `python`          | 24           | H.1308 (Rolin), UD2.120 (Chavanne) | `h1308/`, `ud2120/`              |
+| 2018 | yes             | `python`          | —            | K.1.105 (La Fontaine)              | `k1105/`                         |
+| 2019 | yes             | `python`          | 16           | UD2.120 (Chavanne)                 | `ud2120/`                        |
+| 2020 | yes             | `python`          | —            | UB2.252A (Lameere)                 | `UB2.252A (Lameere)/`            |
+| 2021 | yes             | `python`          | 16           | D.python (online edition)          | `D.python/`                      |
+| 2022 | yes             | `python`          | 18           | D.python (hybrid)                  | `D.python/`                      |
+| 2023 | yes             | `python`          | 14           | UD2.218A                           | `ud2218a/`                       |
+| 2024 | yes             | `python-devroom`  | 30           | UD2.218A                           | `ud2218a/`                       |
+| 2025 | yes             | `python-devroom`  | 16           | UD2.218A                           | `ud2218a/`                       |
+| 2026 | yes (scheduled) | `python`          | 8 → 16 links | UA2.220 (Guillissen)               | —                                |
 
 Years with `—` in the Events column: XML 200 OK, Python track confirmed by parsing; exact
 counts not re-derived for every year in this pass (14–20 events typical, consistent with

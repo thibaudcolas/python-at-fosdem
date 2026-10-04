@@ -18,6 +18,7 @@ import re
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
+from typing import Any
 
 REPO = Path(__file__).resolve().parent.parent
 OUT_DIR = REPO / "docs" / "knowledge-base" / "fosdem"
@@ -29,39 +30,53 @@ UA = {"User-Agent": "python-at-fosdem-data-collector/1.0 (repo tool)"}
 
 
 def xml_url(year: int) -> str:
+    """Return the Pentabarf XML schedule URL for a given FOSDEM year."""
     if year < 2026:
         return f"https://archive.fosdem.org/{year}/schedule/xml"
     return f"https://fosdem.org/{year}/schedule/xml"
 
 
 def fetch(year: int, cache_dir: Path) -> bytes:
+    """Return a year's schedule XML, downloading and caching it if needed."""
     cache = cache_dir / f"{year}.xml"
     if cache.exists():
         return cache.read_bytes()
     url = xml_url(year)
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        data = resp.read()
+    # Scheme is fixed to https by xml_url, so the bandit warning does not apply.
+    req = urllib.request.Request(url, headers=UA)  # noqa: S310
+    with urllib.request.urlopen(req, timeout=60) as resp:  # noqa: S310
+        data: bytes = resp.read()
     cache.write_bytes(data)
     return data
 
 
 def strip_html(text: str) -> str:
+    """Strip tags and decode common HTML entities from a schedule text field."""
     if not text:
         return ""
     text = re.sub(r"<[^>]+>", " ", text)
     # entities
-    for ent, ch in (("&amp;", "&"), ("&lt;", "<"), ("&gt;", ">"), ("&quot;", '"'),
-                    ("&#39;", "'"), ("&apos;", "'"), ("&nbsp;", " ")):
+    for ent, ch in (
+        ("&amp;", "&"),
+        ("&lt;", "<"),
+        ("&gt;", ">"),
+        ("&quot;", '"'),
+        ("&#39;", "'"),
+        ("&apos;", "'"),
+        ("&nbsp;", " "),
+    ):
         text = text.replace(ent, ch)
     text = re.sub(r"&#\d+;", "?", text)
     return re.sub(r"\s+", " ", text).strip()
 
 
-def is_python_track(ev):
-    """Match Python devroom tracks. Track text/slugiphies vary by year:
-    'Python' (most years), 'Python Devroom devroom' (2024). Slug attribute may
-    be absent (2014/2016/2021) so always check element text too."""
+def is_python_track(ev: ET.Element) -> bool:
+    """Match Python devroom tracks.
+
+    Track text and slug spellings vary by year: 'Python' (most years),
+    'Python Devroom devroom' (2024). The slug attribute may be absent
+    (2014/2016/2021), so the element text is always checked too.
+    """
     tr = ev.find("track")
     if tr is None:
         return False
@@ -75,22 +90,29 @@ def is_python_track(ev):
 
 
 def main() -> None:
+    """Collect Python devroom talks and speakers from the FOSDEM XML archives."""
     ap = argparse.ArgumentParser()
     ap.add_argument("--cache-dir", default=None)
     args = ap.parse_args()
 
     parser = argparse.ArgumentParser  # noqa: F841 (keep flake quiet on refactor)
-    cache_dir = Path(args.cache_dir) if args.cache_dir else Path(__file__).parent / "_fosdem_xml_cache"
+    cache_dir = (
+        Path(args.cache_dir)
+        if args.cache_dir
+        else Path(__file__).parent / "_fosdem_xml_cache"
+    )
     cache_dir.mkdir(parents=True, exist_ok=True)
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    talks = []
-    speakers_by_year = {}  # year -> {person_id: {"id", "name", "titles"}}
-    total_events = {}
+    talks: list[dict[str, Any]] = []
+    # year -> {person_id: {"id", "name", "talks"}}
+    speakers_by_year: dict[int, dict[str, Any]] = {}
+    total_events: dict[int, tuple[int, list[str]]] = {}
 
     for year in YEARS:
         data = fetch(year, cache_dir)
-        root = ET.fromstring(data)
+        # FOSDEM's own archives, not untrusted input.
+        root = ET.fromstring(data)  # noqa: S314
         year_talks = 0
         rooms = set()
         yspk = speakers_by_year.setdefault(year, {})
@@ -164,9 +186,9 @@ def main() -> None:
                     pid = p.get("id") or ""
                     pname = (p.text or "").strip()
                     spk.append((pid, pname))
-                    rec = yspk.get(pid)
-                    if not rec:
-                        rec = yspk[pid] = {"id": pid, "name": pname, "talks": []}
+                    if pid not in yspk:
+                        yspk[pid] = {"id": pid, "name": pname, "talks": []}
+                    rec = yspk[pid]
                     if title not in rec["talks"]:
                         rec["talks"].append(title)
 
@@ -194,15 +216,33 @@ def main() -> None:
                 }
             )
         total_events[year] = (year_talks, sorted(rooms))
-        print(f"{year}: {year_talks} events, rooms: {sorted(rooms)}")
+        print(f"{year}: {year_talks} events, rooms: {sorted(rooms)}")  # noqa: T201
 
     # CSV
     cols = [
-        "year", "date", "start", "duration", "room", "title", "subtitle", "track",
-        "type", "language", "url", "video_url", "slides_url", "other_links",
-        "speakers", "feedback_url", "slug", "abstract", "description",
+        "year",
+        "date",
+        "start",
+        "duration",
+        "room",
+        "title",
+        "subtitle",
+        "track",
+        "type",
+        "language",
+        "url",
+        "video_url",
+        "slides_url",
+        "other_links",
+        "speakers",
+        "feedback_url",
+        "slug",
+        "abstract",
+        "description",
     ]
-    with (OUT_DIR / "python-devroom-talks.csv").open("w", newline="", encoding="utf-8") as f:
+    with (OUT_DIR / "python-devroom-talks.csv").open(
+        "w", newline="", encoding="utf-8"
+    ) as f:
         w = csv.DictWriter(f, fieldnames=cols)
         w.writeheader()
         w.writerows(talks)
@@ -217,7 +257,10 @@ def main() -> None:
         json.dumps(out_speakers, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
     )
 
-    print(f"\n{len(talks)} talks total; {len(out_speakers)} unique (year, speaker) pairs")
+    summary = (
+        f"\n{len(talks)} talks total; {len(out_speakers)} unique (year, speaker) pairs"
+    )
+    print(summary)  # noqa: T201
 
 
 if __name__ == "__main__":

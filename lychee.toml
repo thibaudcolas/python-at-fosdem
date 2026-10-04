@@ -12,6 +12,9 @@ exclude = [
   'https://nextjs\.org/blog/CVE-2025-55183',
   'https://nextjs\.org/blog/CVE-2025-55184',
   'https://nextjs\.org/blog/understanding-react-server-components',
+  # The FOSDEM 2027 talk CfP goes live only after devrooms are accepted, so the
+  # draft Python devroom CfP refers to the URL before it exists.
+  'https://pretalx\.fosdem\.org/fosdem-2027/cfp',
 ]
 
 # Theme templates contain Jinja placeholders, not real links.

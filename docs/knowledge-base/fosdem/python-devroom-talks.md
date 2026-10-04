@@ -17,8 +17,8 @@ The [Python devroom](https://fosdem.org/2026/schedule/track/python/) is the dedi
 
 Two files hold the collected data, gathered by the `tools/collect_fosdem_python_devroom.py` collection script in the repo:
 
-- [python-devroom-talks.csv](python-devroom-talks.csv) — one row per talk, covering every edition of the devroom from 2013 through 2026.
-- [python-devroom-speakers.json](python-devroom-speakers.json) — per-year speaker lists derived from the same schedule data.
+- [python-devroom-talks.csv](https://github.com/thibaudcolas/python-at-fosdem/blob/main/docs/knowledge-base/fosdem/python-devroom-talks.csv) — one row per talk, covering every edition of the devroom from 2013 through 2026.
+- [python-devroom-speakers.json](https://github.com/thibaudcolas/python-at-fosdem/blob/main/docs/knowledge-base/fosdem/python-devroom-speakers.json) — per-year speaker lists derived from the same schedule data.
 
 ## Year-by-year overview
 
@@ -43,7 +43,7 @@ Rooms are listed as they appear in the schedule data; 2017 has two rooms because
 
 ## CSV columns
 
-The [speakers CSV](python-devroom-talks.csv) has one row per talk with these columns:
+The [speakers CSV](https://github.com/thibaudcolas/python-at-fosdem/blob/main/docs/knowledge-base/fosdem/python-devroom-talks.csv) has one row per talk with these columns:
 
 - `year` — the FOSDEM edition year.
 - `date` — the date of the talk, in `YYYY-MM-DD` format.

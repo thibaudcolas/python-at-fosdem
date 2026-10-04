@@ -1,0 +1,1046 @@
+[
+  {
+    "title": "Opening session",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/Q8EAER/",
+    "event_slug": "Q8EAER",
+    "talk_id": "Q8EAER",
+    "pretalx_id": 2166,
+    "guid": "335a5b27-d040-57e8-9f74-1455bc48f70f",
+    "date": "2026-09-03T09:15:00+01:00",
+    "start_local": "09:15",
+    "end": "2026-09-03T09:30:00+01:00",
+    "day": "Thursday",
+    "duration": "00:15",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Other",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "Opening session with morning announcements",
+    "description_plain": "Opening session with morning announcements",
+    "speakers": [],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/Q8EAER/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Keynote: Becoming a code curator: developing engineering taste in the age of generative agents",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/NLGFRP/",
+    "event_slug": "NLGFRP",
+    "talk_id": "NLGFRP",
+    "pretalx_id": 2097,
+    "guid": "fe57c024-1fd8-5586-aaf8-3feb5fdda73d",
+    "date": "2026-09-03T09:30:00+01:00",
+    "start_local": "09:30",
+    "end": "2026-09-03T10:30:00+01:00",
+    "day": "Thursday",
+    "duration": "01:00",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Keynote",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "In the era of agentic AI, our role as developers is no longer just about code creation but it’s about code curation. The blank page is dead, but AI-slop is rising. Discover how to use architectural guardrails to force AI to code with your taste, not its training data.",
+    "description_plain": "In 2026, the daunting fear of the proverbial blank page has vanished. We have agents writing lines of code faster than we can read them, and our task is shifting from developers to curators. \nBut there is a catch: while agents are masters of syntax, they are strangers to taste. They can generate functionally \"correct\" code that is architecturally hollow. If we aren't careful, the high-velocity output of the agents will wash away the Pythonic principles of elegance and maintainability we’ve spent decades refining replacing it with unmaintainable AI slop.\nTo thrive in this timeline of agentic code development, we must promote ourselves from developers to code curators. In this talk, we will explore the three pillars of the curator’s craft:\n\nDeveloping a curator's nose: how to  identify the synthetic smell of agentic output, from the verbosity tax to the obsolete echoes where agents default to old python idioms instead of model standards.\nDeveloping a curator's eye: Python is one of the most used languages because, among so many other things, its commitment to simplicity. We’ll look at how taste will help us integrate cutting-edge features where an agent would fall back to legacy bloat and inefficient patterns.\nDeveloping a curator's hand: we must provide with the precise guidance required to build architectures that withstand the test of time. We’ll discuss practical strategies like context injection and architectural guardrails  to force the agents to code following the standards of your codebase not their training data\nIn an era of infinite generation, our value is no longer found in the lines we write, but in the systems we compose. We are no longer just authors of code; we are the guardians of the Pythonic craft.",
+    "speakers": [
+      {
+        "name": "Mai Gimenez",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/MQH7AV/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/NLGFRP/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "No More Spreadsheets! Building PyLadiesCon Infrastructure with Python and Django",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/KS9EPZ/",
+    "event_slug": "KS9EPZ",
+    "talk_id": "KS9EPZ",
+    "pretalx_id": 1931,
+    "guid": "c16cf95c-5832-55ba-9b15-7475cf12f072",
+    "date": "2026-09-03T10:30:00+01:00",
+    "start_local": "10:30",
+    "end": "2026-09-03T11:00:00+01:00",
+    "day": "Thursday",
+    "duration": "00:30",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Talk",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "In 2025, PyLadiesCon team said no to spreadsheets and instead started building our conference infrastructure: an open source web app for managing various aspects of our conference. Learn more our challenges in managing the online PyLadiesCon conference, and how we're solving our problems with Python and Django.",
+    "description_plain": "PyLadiesCon is an online conference for the Global PyLadies community. It is one of a kind conference with programming spans 24 hours and offering talks and contents in multiple languages. Run entirely by volunteers, we face unique challenges specific to the nature of our conference.\n\nOne of the ways we have been managing the various aspects of PyLadiesCon is by using spreadsheets. Spreadsheets for volunteer sign ups, spreadsheets for program scheduling, spreadsheets for sponsorship. Any information you want about the conference, we have a spreadsheet for that.\n\nWhile spreadsheets are great for capturing data, they come with drawbacks when it comes to online collaboration with various team members, causing frustrations and confusion among our team of volunteers.\n\nIn 2025, PyLadiesCon team said no to spreadsheets and instead started building our conference infrastructure: an open source web app for managing various aspects of our conference. Learn more our challenges in managing the online PyLadiesCon conference, and how we're solving our problems with Python and Django.  Contribute to the project, and support the PyLadies community.",
+    "speakers": [
+      {
+        "name": "Mariatta",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/KBVPYV/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/KS9EPZ/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "What's new in Python 3.14 & 3.15",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/QPBCXP/",
+    "event_slug": "QPBCXP",
+    "talk_id": "QPBCXP",
+    "pretalx_id": 2157,
+    "guid": "8a627301-0964-5674-8fc9-61bdf3ba36ed",
+    "date": "2026-09-03T11:30:00+01:00",
+    "start_local": "11:30",
+    "end": "2026-09-03T12:00:00+01:00",
+    "day": "Thursday",
+    "duration": "00:30",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Talk",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "Come and hear about some of the exciting things now available in Python 3.14, and also the new stuff coming in Python 3.15 later this year.",
+    "description_plain": "Python 3.14 is the latest version of your favourite programming language. Come and hear about some of the exciting things available when you upgrade. I'll talk about some of the even newer things set for release in Python 3.15 this October. And I'll also tell about the release cycle and how you can help us test out the pre-releases.",
+    "speakers": [
+      {
+        "name": "Hugo van Kemenade",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/J3CUTT/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/QPBCXP/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "strong ref, weakref and garbage collector walks into a bar",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/KDZQJR/",
+    "event_slug": "KDZQJR",
+    "talk_id": "KDZQJR",
+    "pretalx_id": 2120,
+    "guid": "5edfabe0-567c-5afb-9a67-c6d9342e13ce",
+    "date": "2026-09-03T12:00:00+01:00",
+    "start_local": "12:00",
+    "end": "2026-09-03T12:30:00+01:00",
+    "day": "Thursday",
+    "duration": "00:30",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Talk",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "In Python, objects live as long as something is holding on to them—and sometimes that’s way longer than you expect. This talk explores how references, the garbage collector, and weak references interact to determine object lifetimes, with real-world examples like `lru_cache` quietly keeping objects alive.",
+    "description_plain": "This talk explores how Python manages object lifetimes through references, and why objects sometimes remain in memory longer than expected. While Python’s memory model is often described as simple, its real behavior — especially in the presence of caching and reference cycles — can lead to surprising and hard-to-debug issues.\n\nThe talk is structured as a narrative in three parts: strong references, weak references, and the garbage collector. First, we take a look at Python’s object model and reference counting, using simple, visual  examples to demonstrate how references work. Next, we introduce weak references and show how they differ from regular references, including practical use cases and common misconceptions. Finally, we examine the garbage collector and explain why it is needed in Python on top of reference counting.\n\nThe concepts are grounded in a real-world debugging story involving `functools.lru_cache`, where a small optimization led to unexpected memory growth.\n\nThe goal of this talk is to provide a clear and practical mental model of Python’s memory behavior, helping developers understand not just how things work, but why seemingly correct code can lead to subtle memory issues.",
+    "speakers": [
+      {
+        "name": "Yulia Markelova",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/QTHFL3/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/KDZQJR/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Speeding Up Django Startup Times with Lazy Imports",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/EEJCCX/",
+    "event_slug": "EEJCCX",
+    "talk_id": "EEJCCX",
+    "pretalx_id": 2125,
+    "guid": "b17cf6e7-e610-5ba9-9504-a39861851c9c",
+    "date": "2026-09-03T12:30:00+01:00",
+    "start_local": "12:30",
+    "end": "2026-09-03T13:00:00+01:00",
+    "day": "Thursday",
+    "duration": "00:30",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Talk",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "A couple of slow imports made our Django development miserable. Inlining imports fixed the speed but hurt the codebase. Explicit lazy imports in Python 3.15 will finally give us the speed without the mess!",
+    "description_plain": "Python's import system runs eagerly: every import statement executes the module you are importing from top to bottom, and this includes executing all the nested imports. For command-line tools like Django's management commands, this can result in a multi-second wait. For our project, this resulted in 10+ second wait times on every command, including every server restart, due to a few bad imports scattered around the codebase.\n\nIn the talk, we'll briefly explain how the import system works, how to find imports that take a long time, and explain why the slowest import was so slow.\n\nWe'll then look at how using lazy imports reduced our management commands from 10 seconds to less than 3 seconds, but also how our codebase ended up looking worse as a result. We'll also look at how to ensure we don't accidentally make end users pay for lazy imports during the request/response cycle, and how we made sure it's not possible to regress by adding a lint check.\n\nFinally, we'll look at how, in Python 3.15, all of this will become much easier thanks to PEP 810: Explicit lazy imports.",
+    "speakers": [
+      {
+        "name": "Anže Pečar",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/DGGFQB/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/EEJCCX/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "The illusion of sequential execution in PySpark",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/GU9KWG/",
+    "event_slug": "GU9KWG",
+    "talk_id": "GU9KWG",
+    "pretalx_id": 2123,
+    "guid": "e2c4daaf-92cb-538d-95d3-910404ecc988",
+    "date": "2026-09-03T14:00:00+01:00",
+    "start_local": "14:00",
+    "end": "2026-09-03T14:30:00+01:00",
+    "day": "Thursday",
+    "duration": "00:30",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Talk",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "Have you ever looked at a PySpark pipeline and assumed it would run top-to-bottom? You’d be surprised…it doesn’t. In reality, Spark builds and optimizes execution plans, and this mismatch can lead to subtle, production-grade bugs.\nIn this talk, I’ll walk through a real-world example where reading and updating the same tables produced inconsistent results in production. We’ll see why this happens, what Spark actually executes under the hood, and why code that looks correct can behave unexpectedly.\nJoin this session and you’ll learn practical design principles to make pipelines predictable: introducing explicit materializations, using declarative patterns, or imposing physical separation between sources and targets.",
+    "description_plain": "PySpark code often looks like it runs sequentially, but Spark does not execute pipelines line by line. Instead, it builds and optimizes execution plans, and this mismatch can lead to bugs and misunderstandings.\n\nIn this talk, I will present a real-world issue involving a pipeline that reads from and writes to the same tables. While the code appears straightforward, the final action triggers a separate execution plan that re-reads one of the inputs after it has been updated, producing inconsistent results. This behavior is counterintuitive because dataframes are logical abstractions: they do not hold data unless explicitly materialized, and each action can recompute the entire pipeline.\n\nStarting from this example, I will explore some design principles that can systematically avoid this kind of issue. First, one can include explicit materializations after reading from sources, in order to save input data in a well-defined state. Another possibility is designing simple, atomic jobs with a single target table or even a single action, and then combine them sequentially by means of an orchestrator. Finally, if the underlying data platform has multiple layers, one can impose that every job reads from one layer and writes to the next, in order to physically separate sources and targets.\n\nThe talk will include code examples and is aimed at data engineers with some experience in PySpark who want to build cleaner and more reliable pipelines.",
+    "speakers": [
+      {
+        "name": "Pier Paolo La Pastina",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/3BZEDW/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/GU9KWG/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Your Software Mirrors Your Conversations. Your Conversations Just Went Private.",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/KNX8NQ/",
+    "event_slug": "KNX8NQ",
+    "talk_id": "KNX8NQ",
+    "pretalx_id": 2173,
+    "guid": "5b2b498d-1cee-5699-a63a-c0782d944339",
+    "date": "2026-09-03T14:30:00+01:00",
+    "start_local": "14:30",
+    "end": "2026-09-03T15:00:00+01:00",
+    "day": "Thursday",
+    "duration": "00:30",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Talk",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "We like to treat software architecture as a technical discipline, so when an architecture rots we go looking for technical causes. But every decayed system I've ever seen had a perfectly good plan behind it. The mess didn't come from the code. It came from how the people building it talked to each other, or stopped talking to each other. That's Conway's Law, and it just got a plot twist: a growing share of those conversations now happen with AI assistants instead of with teammates. \nThis talk follows one fictional organization across three eras of its life, on a single network graph of people, teams, services, and code that evolves on screen, to find out what all those private conversations are doing to your software.",
+    "description_plain": "The story follows one fictional organization, stitched together from things I lived through, across three eras of its life: the early monolith, the reorg into \"autonomous teams\" that nobody thought all the way through, and the arrival of LLM assistants. The whole arc plays out on a single network graph of people, teams, services, and code that evolves on screen as the company changes, so you can watch the architecture respond to the conversations, and stop responding when the conversations stop.\n\nAlong the way: how well-intentioned autonomy can manufacture a distributed monolith; what actually happens to a codebase when every developer's closest collaborator becomes a model; what the industry's own data says about feeling faster versus being faster; and why AI makes Conway's Law bite harder, not softer. And because this isn't a doom talk, the way out is here too, grounded in Diana Montalion's Learning Systems Thinking.\n\nYou'll leave with a new lens to view your own codebase, a sharper question to ask about every system your team ships, two gut checks for your team's AI adoption, and a handful of practices you can pilot without waiting for anyone to approve a reorg.",
+    "speakers": [
+      {
+        "name": "Juan Caraballo",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/JQ998U/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/KNX8NQ/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Running Companies with Python and Open Source ERP",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/CAPM8Z/",
+    "event_slug": "CAPM8Z",
+    "talk_id": "CAPM8Z",
+    "pretalx_id": 2124,
+    "guid": "c920c973-a639-5c22-83df-4a97c86acf72",
+    "date": "2026-09-03T15:30:00+01:00",
+    "start_local": "15:30",
+    "end": "2026-09-03T16:00:00+01:00",
+    "day": "Thursday",
+    "duration": "00:30",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Talk",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "Python is running companies worldwide — through Odoo, an open-source ERP where business logic is just Python code. Come see how Python's expressiveness and modularity power the decisions that keep businesses moving.",
+    "description_plain": "Ask a Python developer what Python is used for, and you'll hear the usual answers: data science, machine learning, infrastructure automation, web backends. Rarely does anyone mention running the day-to-day operations of a business. Yet that's exactly what Odoo makes possible — and it does so with Python at its core.\nOdoo is a fully open-source suite of business applications — from accounting and inventory to sales and HR — built entirely in Python. Unlike traditional ERP systems that lock businesses into rigid, proprietary logic, Odoo exposes its business rules, workflows, and data models as Python code. This means Python developers are suddenly first-class citizens in domains historically dominated by consultants, spreadsheets, and black-box software: invoicing runs, stock movements, manufacturing orders, payroll calculations. And because Odoo is open source, the entire stack is inspectable, forkable, and extensible — there are no hidden rules governing your business.\nWhat makes this possible is Odoo's layered, modular architecture. Business logic is organised into composable Python modules — each one a clean layer over the last — so that a small, focused change can reshape how an entire business process behaves without touching anything else. This is not just good software design; it is what allows Python developers to reason about, extend, and own business processes the same way they would any other codebase.\nWe'll open with a grounded look at what an ERP actually does — the key functional domains that keep a company running and why they are hard to model in software. From there, we explore how Odoo's framework architecture is designed to meet those demands: its layered module system, and how Python's expressive syntax and dynamic nature make it uniquely suited to capturing complex, ever-changing business logic. We'll also look at Python's role as a universal connector — how it bridges Odoo to the wider world of APIs, data pipelines, and external systems. The talk closes with a look at the open-source ecosystem around Odoo and what this expanding frontier means for Python developers.\nNo prior knowledge of ERP or business software is assumed — just curiosity about where Python shows up next.",
+    "speakers": [
+      {
+        "name": "Daniel Reis",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/A98VKP/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/CAPM8Z/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "And now for something completely different",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/AVBHNY/",
+    "event_slug": "AVBHNY",
+    "talk_id": "AVBHNY",
+    "pretalx_id": 2138,
+    "guid": "124d020c-4487-55d4-a787-3a1c5b9a81c1",
+    "date": "2026-09-03T16:00:00+01:00",
+    "start_local": "16:00",
+    "end": "2026-09-03T16:30:00+01:00",
+    "day": "Thursday",
+    "duration": "00:30",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Talk",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "A generator, duck typing, and branchless conditionals walk into a bar…\nSounds like the start of a bad Python joke, but it’s actually a list of three features used in my favourite line of Python code.\n\nYou *have* a favourite line of code as well, *right*?\n\nIn this talk we’ll go over two quintessential features of Python programming (generators and duck typing) and you’ll learn how to use them effectively.\n\nWe’ll also look at branchless conditionals and understand how this unusual idea can shape the way you think about coding.\n\nIn the end, we’ll put the three together to write a powerful Python idiom and conclude I have terrible taste!",
+    "description_plain": "This talk will cover three major topics: generators, duck typing, and branchless conditionals. We devote roughly the same time for each topic.\n\nFirst, we cover generators. We start by introducing the keyword `yield` as a “temporary `return`” and then see a couple of examples of generators, making clear the contrast between lazy and eager looping techniques.\nWe explain how generators have the potential to save time and computational resources and we also present generator expressions, as those will be important in the end.\n\nThen, we talk about duck typing in Python and show examples of duck typing in our daily lives through an example inspired in biology and taxonomy. We also show how duck typing is present in standard Python code, for example when we think about the idea of *iterable*, to show it's not a weird concept that no one uses in practice.\n\nWhen talking about duck typing we also make the connection to protocols and `typing.Protocol`, but this section is not focused on code since the main goal is to make sure everyone understands the *idea* behind duck typing.\n\nFinally, we understand what a branchless conditional is, we see some examples of what branchless conditionals could look like in Python, and we try to understand whether the gain you get by writing less code outweighs the potential readability issues you may or may not have.\n\nThis is all done by using an example implementation of a text processing function and then refactoring it by using branchless conditionals.\n\nIn the end, we put all three concepts together in a single line of code to create a Python idiom. We use this piece of code to think about what it means to write “good” or “elegant” code and how to achieve it.",
+    "speakers": [
+      {
+        "name": "Rodrigo Girão Serrão",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/D33C79/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/AVBHNY/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Lightning talks ⚡️ Thursday",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/R8B8RB/",
+    "event_slug": "R8B8RB",
+    "talk_id": "R8B8RB",
+    "pretalx_id": 2159,
+    "guid": "fd6c2354-826d-50e1-9dca-4345aa298614",
+    "date": "2026-09-03T16:30:00+01:00",
+    "start_local": "16:30",
+    "end": "2026-09-03T17:00:00+01:00",
+    "day": "Thursday",
+    "duration": "00:30",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Talk",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "Enjoy Thursday's lightning talks! Short talks about everything by everyone.",
+    "description_plain": "Lightning talks are 5 minute talks that anyone participating at the conference can submit. If that talk gets selected, you will have the chance to jump into the main stage and show us your project, your ideas, something you have learned, something you are proud of that's helping and contributing to our conference and community, or something else!\n\nLightning talks last a maximum of 5 minutes. You can use less time, but not more. This time limit is strictly enforced!",
+    "speakers": [],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/R8B8RB/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Morning announcements",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/GLLJKG/",
+    "event_slug": "GLLJKG",
+    "talk_id": "GLLJKG",
+    "pretalx_id": 2167,
+    "guid": "d4e01c9e-775a-54bd-8830-3002c9df4ea9",
+    "date": "2026-09-04T09:15:00+01:00",
+    "start_local": "09:15",
+    "end": "2026-09-04T09:30:00+01:00",
+    "day": "Friday",
+    "duration": "00:15",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Other",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "Morning announcements",
+    "description_plain": "Morning announcements",
+    "speakers": [],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/GLLJKG/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Keynote: Most of your AI output is Slop (and how to optimise it)",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/FDLXS9/",
+    "event_slug": "FDLXS9",
+    "talk_id": "FDLXS9",
+    "pretalx_id": 2156,
+    "guid": "ec0e0cbf-95ec-59d1-b60a-4a2429224cd6",
+    "date": "2026-09-04T09:30:00+01:00",
+    "start_local": "09:30",
+    "end": "2026-09-04T10:30:00+01:00",
+    "day": "Friday",
+    "duration": "01:00",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Keynote",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "Most of us now talk to our computers like we did in the 60s, through a terminal. The difference is what is on the other side. Along the way, we stopped writing code by hand.\nThis talk is about what that costs and what it buys. Treating AI systems with awe hides what they can't do and hands us back plausible slop. Named precisely, as a tool that drafts, reviews, searches, or automates a specific chore, it becomes something that can be tested, questioned, measured, and optimised.",
+    "description_plain": "Most of us have adopted AI tools without the surrounding guidance on how to coerce models into making something good and useful. The speed of development grew exponentially, to the point where we now interact with computers like we did in the 1960s, through a terminal. This talk is about how to concretely take your everyday prompt and make it better, from slop to a workflow that can be measured and improved far beyond your local environment. We'll cover gold standard practices such as context, guardrails, optimisation, and evaluation frameworks, the things that let you take advantage of AI tooling to the maximum, rather than being tied to reviewing every line it produces, increasing both speed and trustworthiness.",
+    "speakers": [
+      {
+        "name": "Laís Carvalho",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/L9XBYZ/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": "https://pretalx.evolutio.pt/media/pycon-portugal-2026/submissions/FDLXS9/PydanticAtomico2026-0043_PrLGB63.webp",
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/FDLXS9/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Debug smarter, not harder - all you need to know about debugging in Python",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/KZQEXM/",
+    "event_slug": "KZQEXM",
+    "talk_id": "KZQEXM",
+    "pretalx_id": 2115,
+    "guid": "2a49d130-370f-54e7-a4c7-07ba9930cefc",
+    "date": "2026-09-04T10:30:00+01:00",
+    "start_local": "10:30",
+    "end": "2026-09-04T11:00:00+01:00",
+    "day": "Friday",
+    "duration": "00:30",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Talk",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "This talk tackles the common, yet ultimately limiting, practice of using `print` statements for debugging in Python. We will explore why relying on `print` statements often becomes inefficient and cumbersome as applications grow in complexity.",
+    "description_plain": "The presentation will guide attendees through a transition to professional-grade debugging tools, beginning with a detailed look at the built-in Python debugger, **`pdb`**, including essential commands and workflows. \n\nNext, I will demystify the powerful debugging capabilities integrated into modern Integrated Development Environments (IDEs), specifically demonstrating **`debugpy`** and its seamless application within popular tools like VS Code and PyCharm. \n\nFinally, the talk will introduce **debug logging** as a robust, scalable alternative to temporary print statements, covering best practices for when and how to implement a logging framework to manage application state effectively. \n\nBy contrasting these strategies, this session aims to empower developers to choose the right tool. Be it a dedicated debugger, an IDE feature, or a logging framework, for any challenge. Enabling smarter, faster, and more effective code remediation in their daily work.",
+    "speakers": [
+      {
+        "name": "Cheuk Ting Ho",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/GTVKWZ/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/KZQEXM/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Reverse-engineering the QR code generator and URL forwarder service",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/GCXB8F/",
+    "event_slug": "GCXB8F",
+    "talk_id": "GCXB8F",
+    "pretalx_id": 2175,
+    "guid": "d80ad326-480f-534a-891e-dd464aa90cbd",
+    "date": "2026-09-04T11:30:00+01:00",
+    "start_local": "11:30",
+    "end": "2026-09-04T12:00:00+01:00",
+    "day": "Friday",
+    "duration": "00:30",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Talk",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "There are various websites and services that lets you generate QR codes. However, these services sometimes aren't free, or they might serve ads on the website. What's even worse, sometimes these services would mask your url with a their own url shortener or domain.\nDo we really need to use these services in order to accomplish simple thing like generating an image?\nLet's reverse engineer these services and see how we can build our own using Python and Django.",
+    "description_plain": "Sharing urls using QR code is a common use case nowadays.\n\nYou might have seen restaurants sharing links to their menu or loyalty programs using QR code. A conference speaker might have lots of links to share during their talk, and it's not always practical to share long links in their presentation slides. Using QR code would help, but QR code creation is a mysterious process.\n\nThere are various websites and services that lets you generate QR codes. However, these services sometimes aren't free, or they might serve ads on the website. What's even worse, sometimes these services would mask your url with a their own url shortener or domain. Users will hesitate to scan your QR code if it is not clear where it's taking them to.\n\nDo we really need to use these services in order to accomplish simple thing like generating an image?\n\nLet's reverse engineer these services and see how we can build our own using Python and Django.\n\nLearn how to build your own version of QR code generator and URL forwarder service in this talk.",
+    "speakers": [
+      {
+        "name": "Mariatta",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/KBVPYV/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/GCXB8F/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Building Resilient Python APIs for Systems That Can't Afford to Fail",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/YETWYL/",
+    "event_slug": "YETWYL",
+    "talk_id": "YETWYL",
+    "pretalx_id": 2107,
+    "guid": "01f87b81-bd1b-5b2b-a34c-b15b433a3e08",
+    "date": "2026-09-04T12:00:00+01:00",
+    "start_local": "12:00",
+    "end": "2026-09-04T12:30:00+01:00",
+    "day": "Friday",
+    "duration": "00:30",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Talk",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "Python developers are building APIs that expose industrial control systems (PLCs and sensor networks via Modbus or OPC-UA) to the internet, often with basic authentication and outdated dependencies. When code controls power grids, water systems, or manufacturing processes, a compromised API or a typosquatted package is not just a data leak, it can disrupt operations.\n\nBecause of this, the way these APIs are built introduces security concerns that are not always visible during development. Many of these applications depend on third-party packages, which creates exposure to supply chain risks.\n\nAttackers use techniques such as typosquatting, publishing malicious packages with names similar to widely used libraries (such as reqeusts instead of requests). Once installed, these packages can access environment variables, API keys, or system interfaces. Outdated dependencies introduce additional risk, as libraries such as requests or urllib3 may contain known weaknesses, including credential leakage during redirects or improper SSL validation.\n\nThese patterns come from web development, where their impact is often limited to data exposure. When the same code is used in systems connected to infrastructure that controls physical processes, the consequences change. Weak API design or a compromised dependency can affect system behavior, not just stored data.\n\nThis difference creates a gap between how Python applications are commonly built and what is expected in these environments. Small decisions in Python API design can reduce risk in systems where software directly affects physical processes.\n\nThis talk shows Python developers how to secure these integrations through safer API design, careful handling of dependencies, and decisions that improve system resilience without requiring deep security expertise.",
+    "description_plain": "This talk looks at how Python APIs connect industrial control systems such as PLCs and sensor networks to external systems. These integrations are often built using familiar patterns, but the risks change when software affects physical processes.\n\nHere, the session starts with how Python is used in these environments and then moves to common issues in API design and dependency use, including typosquatting and outdated libraries. From there, it explains how problems that seem minor in web applications can affect system behavior in industrial settings.\n\nBased on this, the talk ends with practical ways developers can write safer APIs and handle dependencies more carefully, without adding unnecessary complexity.",
+    "speakers": [
+      {
+        "name": "Natalia Riveros Núñez",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/HKYP3Q/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": "https://pretalx.evolutio.pt/media/pycon-portugal-2026/submissions/YETWYL/python-critical__1EJRWiO.png",
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/YETWYL/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Predicting the future with machine learning and Python",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/99JTVH/",
+    "event_slug": "99JTVH",
+    "talk_id": "99JTVH",
+    "pretalx_id": 2145,
+    "guid": "d0752879-0145-54e3-bdc4-4915dd3f54ec",
+    "date": "2026-09-04T12:30:00+01:00",
+    "start_local": "12:30",
+    "end": "2026-09-04T13:00:00+01:00",
+    "day": "Friday",
+    "duration": "00:30",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Talk",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "Forecasting is one of the most important and frequent problems in machine learning.\n\n- How many customers will visit a store next Friday?\n- How many products will a factory sell three months from now?\n- How many tourists will visit a city next summer?\n\nIn this talk, you will learn how to solve these types of problems with machine learning in Python.\n\nThe talk will start with a brief introduction to the necessary machine learning concepts, then explain how to transform a time series problem into a machine learning problem. It will focus on concepts that are not only essential for this approach, but for time series modelling in general.",
+    "description_plain": "Time series problems can be tackled with specialized models, but in practice, many real-world solutions rely on reframing forecasting tasks as supervised machine learning problems. In this talk, we’ll focus on this approach, since many of its core ideas also underpin time series–specific models. This makes it the best introduction to time series modelling.\n\nWe’ll start by reviewing the essential supervised machine learning concepts needed when working with time-dependent data. From there, we’ll see how to transform a time series problem into a supervised machine learning problem by carefully designing inputs and targets.\n\nFinally, we’ll focus on a critical aspect: evaluation. We’ll discuss how to validate machine learning models in general, and how time dependence fundamentally changes validation strategies in the context of time series.\n\nBy the end of the talk, attendees familiar with machine learning will know how to apply their skills to time series problems, while those newer to ML will gain a solid conceptual foundation for understanding how modern time series models work under the hood.",
+    "speakers": [
+      {
+        "name": "Juan Castillo del Río",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/S7G3ZA/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/99JTVH/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Build Your Own (Simple) Static Code Analyzer",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/URDBXA/",
+    "event_slug": "URDBXA",
+    "talk_id": "URDBXA",
+    "pretalx_id": 1971,
+    "guid": "686e452a-4b2d-588d-8467-cdff83b833a5",
+    "date": "2026-09-04T14:00:00+01:00",
+    "start_local": "14:00",
+    "end": "2026-09-04T14:30:00+01:00",
+    "day": "Friday",
+    "duration": "00:30",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Talk",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "Are you curious how linters and code formatters work? Would you like to build your own code analyzer? In this talk, I will walk you through the process of doing so using a data structure called an abstract syntax tree, which represents your code's structure and allows you to access its components.",
+    "description_plain": "Code reviewers often face significant cognitive load. Depending on the project, they must scrutinize the implementation, check that the code adheres to conventions – such as using the latest syntax and language constructs – verify that the code is properly documented, and much more. When performed manually, these code-quality checks can easily monopolize the reviewer’s time. As a result, it is a key priority to offload as many tasks as possible onto static code analysis tools – like linters and formatters – so the reviewer can focus on the implementation itself.\n\nHow do these tools work, and how could you build one of your own to enforce conventions specific to your codebase? In this keynote, I will walk you through the process of creating a simple static code analyzer in Python using a data structure called an abstract syntax tree, which represents your code's structure and allows you to access its components in order to perform checks.",
+    "speakers": [
+      {
+        "name": "Stefanie Molin",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/9NHRV8/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/URDBXA/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Now available: A pythoneer's guide to IaC with Pulumi",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/89C3AY/",
+    "event_slug": "89C3AY",
+    "talk_id": "89C3AY",
+    "pretalx_id": 1923,
+    "guid": "bc6f3e84-d4d3-53e5-a7fb-933361ce2317",
+    "date": "2026-09-04T14:30:00+01:00",
+    "start_local": "14:30",
+    "end": "2026-09-04T15:00:00+01:00",
+    "day": "Friday",
+    "duration": "00:30",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Talk",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "Why keep managing your cloud with rigid HCL when you can use Python?\nPython + Pulumi bridges the gap between dev and devOps with the same language.",
+    "description_plain": "Why keep managing your cloud with rigid HCL when you can use the power of Python?\nTraditional Infrastructure as Code (IaC) tools forced us developers to use domain-specific languages that lack the ecosystem, tooling and best practices we love.\n\nLet's see how Python + Pulumi bridge the gap between dev and devOps without language switching, while discussing how recent Terraform changes make now maybe the perfect time to adopt a truly code-first, open-source approach.\n\nThis session is a live-coding, hands-on, no slides, dive into IaC and Pulumi IaC, an OSS tool that treats infrastructure as a first-class code citizen, not just a config file. We'll deploy and manage a Google Cloud environment, demonstrating how Python's great ecosystem allows better abstraction, loop management, and testing than HCL or YAML.\n\n- Limitation of traditional DSL in complex environments.\n- Python features, tools and best practices transfered to Pulumi.\n- Migrating from Terraform to Pulumi + Python.\n- Using Pulumi with Python for Google Cloud.\n\nAudience: Pythoneers, pythonistas, cloud architects/engineers, experienced TF devOps, devs looking to grow into platform engineers before AI takes our jobs and dooms us all maybe? 😮",
+    "speakers": [
+      {
+        "name": "Marcos Manuel Ortega González",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/SMK8SE/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/89C3AY/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Implementing Data Quality Control with Python",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/FYSCHQ/",
+    "event_slug": "FYSCHQ",
+    "talk_id": "FYSCHQ",
+    "pretalx_id": 2049,
+    "guid": "9b42a1e3-7e67-56ac-832b-60366f8a34fb",
+    "date": "2026-09-04T15:00:00+01:00",
+    "start_local": "15:00",
+    "end": "2026-09-04T15:30:00+01:00",
+    "day": "Friday",
+    "duration": "00:30",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Talk",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "In this talk about Data Quality, I will explore its main concepts, technologies, and strategies, besides presenting a benchmark of Python solutions and a use case applying Airflow to execute Data Quality validations",
+    "description_plain": "Data Quality is growing in importance and visibility as companies understand the strategic value of it inside the Data Governance field. In this talk, I will explore the impact of implementing Data Quality routines in data pipelines and the available techniques and technologies, applying Python to do so. This lecture will be divided into four sessions, starting with the presentation of Data Quality's main concepts, then presenting three use cases, a benchmark of data quality tools, and, finally, a use case using Airflow to implement data quality validations.\n\nStructure planned:\n- Presenting myself (2 minutes)\n- Why Data Quality is so relevant? (3 minutes)\n- Data Quality main concepts (3 minutes)\n- Three use cases of Data Quality (5 minutes)\n- A benchmark for Python tools (7 minutes)\n- A use case with Airflow (7 minutes)\n- Questions (3 minutes)",
+    "speakers": [
+      {
+        "name": "Rafael Araújo",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/8XWDHA/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/FYSCHQ/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "I Am a Sucker for Conventions. Why Django’s Defaults Work, Until They Don’t",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/V7XFAM/",
+    "event_slug": "V7XFAM",
+    "talk_id": "V7XFAM",
+    "pretalx_id": 2176,
+    "guid": "1d17a0ad-174e-59dd-a697-2a8b52aedde5",
+    "date": "2026-09-04T16:00:00+01:00",
+    "start_local": "16:00",
+    "end": "2026-09-04T16:30:00+01:00",
+    "day": "Friday",
+    "duration": "00:30",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Talk",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "Conventions are one of Django’s greatest strengths.\n\nThey simplify our day-to-day work, reduce cognitive load, and let teams move fast with confidence. By following well-established defaults, we spend less time debating structure and more time solving real problems.\n\nBut every convention is also a decision - and every decision has trade-offs.\n\nWho decided these conventions? Why were they chosen? And what happens when your problem doesn’t quite fit the “Django way”?\n\nIn this talk, we’ll explore Django’s conventions as both a feature and a constraint. We’ll look at where they shine, where they leak, and how experienced developers can respectfully bend (or break) them without fighting the framework. This is a talk for anyone who loves Django — especially when they disagree with it.",
+    "description_plain": "Django is often praised for its “batteries-included” philosophy and strong conventions. From project layout to ORM patterns, admin defaults, and application structure, Django makes a lot of decisions on behalf of its users - and most of the time, those decisions are excellent.\n\nBut conventions are opinions baked into code.\n\nIn this talk, I’ll reflect on conventions not as immutable rules, but as negotiated agreements between framework authors and the community. Drawing from real-world projects and long-term Django usage, I’ll explore questions like:\n\t•\tWhat problems do Django’s conventions intentionally solve?\n\t•\tWhat trade-offs do they introduce as projects grow or diverge?\n\t•\tWhen does “just follow the convention” become friction rather than guidance?\n\t•\tHow can teams deviate safely without creating unmaintainable codebases?\n\nRather than advocating for rewriting Django or rejecting its philosophy, this talk focuses on informed deviation: understanding the intent behind conventions so that breaking them becomes a conscious, well-reasoned decision - not a reflex or a hack.\n\nThe talk is reflective, practical, and experience-driven, aimed at intermediate to advanced Django developers who have felt both comforted and constrained by Django’s defaults.",
+    "speakers": [
+      {
+        "name": "David Vaz",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/DNTCRW/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/V7XFAM/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Lightning talks ⚡️ Friday (featuring Python Quiz)",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/GN7EQA/",
+    "event_slug": "GN7EQA",
+    "talk_id": "GN7EQA",
+    "pretalx_id": 2158,
+    "guid": "ec905539-dd9b-5e58-b54d-9dcaeb816ed0",
+    "date": "2026-09-04T16:30:00+01:00",
+    "start_local": "16:30",
+    "end": "2026-09-04T17:15:00+01:00",
+    "day": "Friday",
+    "duration": "00:45",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Talk",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "Enjoy Friday's lightning talks! Short talks about everything by everyone.",
+    "description_plain": "Lightning talks are 5 minute talks that anyone participating at the conference can submit. If that talk gets selected, you will have the chance to jump into the main stage and show us your project, your ideas, something you have learned, something you are proud of that's helping and contributing to our conference and community, or something else!\n\nLightning talks last a maximum of 5 minutes. You can use less time, but not more. This time limit is strictly enforced!",
+    "speakers": [],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/GN7EQA/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Closing session",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/ZA7PPP/",
+    "event_slug": "ZA7PPP",
+    "talk_id": "ZA7PPP",
+    "pretalx_id": 2168,
+    "guid": "d6992354-a081-5315-8b6f-6c046a0ffd78",
+    "date": "2026-09-04T17:15:00+01:00",
+    "start_local": "17:15",
+    "end": "2026-09-04T17:30:00+01:00",
+    "day": "Friday",
+    "duration": "00:15",
+    "room": "Auditorium",
+    "track": null,
+    "talk_type": "Other",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "Closing session",
+    "description_plain": "Closing session",
+    "speakers": [],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/ZA7PPP/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "This Agent Will Judge Your Bias!",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/CY3LNP/",
+    "event_slug": "CY3LNP",
+    "talk_id": "CY3LNP",
+    "pretalx_id": 2141,
+    "guid": "1d84f2dc-0e72-5631-be7e-d4013d7dc937",
+    "date": "2026-09-05T09:00:00+01:00",
+    "start_local": "09:00",
+    "end": "2026-09-05T11:00:00+01:00",
+    "day": "Saturday",
+    "duration": "02:00",
+    "room": "Workshops Azores",
+    "track": null,
+    "talk_type": "Workshop",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "AI doesn’t just reflect society—it amplifies its contradictions. From viral “bikini” image manipulation trends(!) in generative tools to hiring systems that systematically disadvantage women* in tech, we see the same pattern: erasure in one place, hypervisibility in another. In this hands-on workshop, we build AI agents with LangChain and LangGraph to detect and surface gender bias in real text systems—turning critique into code, and visibility into a technical feature.",
+    "description_plain": "We start by examining real-world examples of bias in tech and AI outputs, then move directly into building AI agents using LangChain and LangGraph. Participants will design and implement a pipeline that detects gender bias in text, classifies its severity, and generates more inclusive rewrites.\nThe focus is practical: turning bias from an abstract concept into something observable, measurable, and actionable through working AI agents.\n\nNOTE:\n- This is a **beginner-friendly** workshop for people with **no experience using LangGraph** and Agents (but some experience with Python). \n- **If you are looking to participate, please read the setup instructions in the [README](https://github.com/isik-hilal/pycon_portugal2026_ai_agent_bias).**\n- If you would like to **code along**, please also **follow these instructions before the workshop starts** to ensure that you can follow along in real time\n- Please note, you will need some **HuggingFace credits** to code along, we estimate less than 5€ in total. If this is an issue, you are still welcome to attend and follow along.",
+    "speakers": [
+      {
+        "name": "Hilal Işık",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/BML7QG/"
+      },
+      {
+        "name": "Anastasia Mikheeva",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/RDR97Q/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [
+      {
+        "title": "HF Endpoints",
+        "url": "https://endpoints.huggingface.co",
+        "type": "related"
+      },
+      {
+        "title": "Github Repo",
+        "url": "https://github.com/isik-hilal/pycon_portugal2026_ai_agent_bias",
+        "type": "related"
+      },
+      {
+        "title": "HF API Token",
+        "url": "https://huggingface.co/docs/hub/en/security-tokens",
+        "type": "related"
+      },
+      {
+        "title": "UnbiasPlus forked model for deploying on HF Endpoint",
+        "url": "https://huggingface.co/stasiafromberms/Qwen3-8B-UnBias-Plus-SFT-Instruct-V2",
+        "type": "related"
+      }
+    ],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/CY3LNP/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Audit and evaluate AI generated Python code",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/BBWJAV/",
+    "event_slug": "BBWJAV",
+    "talk_id": "BBWJAV",
+    "pretalx_id": 2113,
+    "guid": "91c0fe17-6ffb-56f6-92f8-ae6d0ef9f06f",
+    "date": "2026-09-05T11:30:00+01:00",
+    "start_local": "11:30",
+    "end": "2026-09-05T13:30:00+01:00",
+    "day": "Saturday",
+    "duration": "02:00",
+    "room": "Workshops Azores",
+    "track": null,
+    "talk_type": "Workshop",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "These may be the most important skills to keep your job or to find a new one in the future! \n\nAI-generated code is a powerful tool, but it should never be blindly trusted. This intensive workshop, \"Audit and evaluate AI generated Python code,\" teaches you the critical skills you need to stay relevant in the future.",
+    "description_plain": "These may be the most important skills to keep your job or to find a new one in the future!\n\nAI-generated code is a powerful tool, but it should never be blindly trusted. This intensive workshop, \"Audit and evaluate AI generated Python code,\" teaches you the critical skills you need to stay relevant in the future: how to ensure AI-generated code is secure, functional, and aligns with your standards. \n\nWe will go beyond basic reviews with a four-step, hands-on approach. You will learn how to: \nPerform Functional Verification using tools like pytest and hypothesis for property-based testing; \nConduct Security & Dependency Audits with static analysis tools; \nExecute an Adversarial Review by attacking your own program; and \nAchieve Architectural Alignment using ruff and type checking with ty. \n\nFinally, we will cover how to measure and document the performance of your AI prompts using evaluation metrics. You’ll leave this workshop prepared to take control of code that AI produces in your Python projects, and learn how to turn this code into quality code.\n\nThis workshop is specifically designed for developers who have already begun incorporating AI into their workflow to generate code and are looking to refine their auditing process.",
+    "speakers": [
+      {
+        "name": "Cheuk Ting Ho",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/GTVKWZ/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/BBWJAV/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Fast Python development with uv",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/MCTFTH/",
+    "event_slug": "MCTFTH",
+    "talk_id": "MCTFTH",
+    "pretalx_id": 2140,
+    "guid": "3d2649b7-69ef-5313-91d0-017faf129bba",
+    "date": "2026-09-05T14:30:00+01:00",
+    "start_local": "14:30",
+    "end": "2026-09-05T16:30:00+01:00",
+    "day": "Saturday",
+    "duration": "02:00",
+    "room": "Workshops Azores",
+    "track": null,
+    "talk_type": "Workshop",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "Streamline your Python processes and worfklows by using uv to install tools, run scripts, manage and deploy projects, and more!",
+    "description_plain": "**EDIT**: GitHub repo: https://github.com/mathspp/talks/tree/main/20260905_pycon_portugal_uv\n\n[uv](https://docs.astral.sh/uv) has taken the Python world by storm and for a good reason: it's an “extremely fast Python package and project manager” that promises to unify all of your Python productivity and development needs under a single tool.\n\nRegardless of whether you've been living under a rock and haven't tried uv yet or you've slowly started incorporating it into your day-to-day workflow, this workshop will help you understand why uv is all the rage:\n\n- use tools with dedicated, isolated virtual environments\n- manage, build, and deploy, Python projects\n- write and run scripts with external dependencies\n- and more!\n\nThere is so much hype in this abstract, it sounds like it was written by an LLM! But no, I'm just this excited to tell you all about uv. And by the time we finish, you'll be glad I did.",
+    "speakers": [
+      {
+        "name": "Rodrigo Girão Serrão",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/D33C79/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/MCTFTH/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Process, Analyze, and Transform Python Code with ASTs",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/TJN7DC/",
+    "event_slug": "TJN7DC",
+    "talk_id": "TJN7DC",
+    "pretalx_id": 1970,
+    "guid": "9fd7f014-43eb-5208-9a72-806c1aafc6ab",
+    "date": "2026-09-05T09:00:00+01:00",
+    "start_local": "09:00",
+    "end": "2026-09-05T11:00:00+01:00",
+    "day": "Saturday",
+    "duration": "02:00",
+    "room": "Workshops Madeira",
+    "track": null,
+    "talk_type": "Workshop",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "Come learn how to use the Python standard library’s `ast` module to parse and analyze code. Using just the standard library, we will implement a couple of code analysis checks from scratch, giving you the skills and confidence to use ASTs in your own projects.",
+    "description_plain": "You’ve likely used a tool like `black`, `flake8`, or `ruff` to lint or format your code, or a tool like `sphinx` to document it, but you probably do not know how they accomplish their tasks. These tools and many more use **Abstract Syntax Trees (ASTs)** to analyze and extract information from Python code. An AST is a representation of your code's structure that enables you to access and manipulate its different components, which is what makes it possible to automate tasks like code migrations, linting, and docstring extraction.\n\nIn this workshop, you’ll learn how to use the Python standard library’s `ast` module to parse and analyze code. Using just the standard library, we will implement a couple of common checks from scratch, which will give you an idea of how these tools work and help you build the skills and confidence to use ASTs in your own projects.",
+    "speakers": [
+      {
+        "name": "Stefanie Molin",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/9NHRV8/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": "https://pretalx.evolutio.pt/media/pycon-portugal-2026/submissions/TJN7DC/animation-try-except-nes_fp2StFe.webp",
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/TJN7DC/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Code Smarter with Functional Python",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/PSKUPQ/",
+    "event_slug": "PSKUPQ",
+    "talk_id": "PSKUPQ",
+    "pretalx_id": 2171,
+    "guid": "7759b386-66f0-5984-9f53-b9d25c7b79a7",
+    "date": "2026-09-05T11:30:00+01:00",
+    "start_local": "11:30",
+    "end": "2026-09-05T13:30:00+01:00",
+    "day": "Saturday",
+    "duration": "02:00",
+    "room": "Workshops Madeira",
+    "track": null,
+    "talk_type": "Workshop",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "What if we approached Python problems differently? This hands-on workshop introduces Functional Programming as a problem-solving mindset: break complexity into small functions, control side effects, compose reusable pieces, and build predictable systems. Learn practical Functional Programming techniques in Python.",
+    "description_plain": "**Edit**: GitHub repository with the materials: https://github.com/Mani007/Presentation_AND_content_PyConPT_2026\n\nFunctional programming helps in understanding, designing, and composing your code. This hands-on workshop introduces Functional Programming in Python as a practical approach to breaking complex problems into small, predictable, reusable, and composable functions.\nStarting with first-class functions, higher-order functions, closures, and decorators, we explore the core principles of functional programming including pure functions, immutability, referential transparency, side-effect management, declarative programming, lazy evaluation, iterators, generators, and recursion. Participants will then discover powerful techniques such as function composition, pipelines, functional chaining, currying, partial application, memoization, caching, and dynamic programming.\nThrough 20+ code examples we will explore functional design patterns. We will also explore Functional Programming vs. Object-Oriented Programming and when the two approaches can work together effectively.\nThe goal is simple: learn to break down complexity, compose better solutions, reduce unnecessary state and side effects, and design code that is easier for us to understand, test, and evolve.",
+    "speakers": [
+      {
+        "name": "Mohnish Awade",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/NJQX73/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": "https://pretalx.evolutio.pt/media/pycon-portugal-2026/submissions/PSKUPQ/FunctionalProgrammingInPy_r09kx9f.png",
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/PSKUPQ/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  },
+  {
+    "title": "Trust Me, I'm a Certificate Authority",
+    "subtitle": null,
+    "event_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/CCKFUQ/",
+    "event_slug": "CCKFUQ",
+    "talk_id": "CCKFUQ",
+    "pretalx_id": 2174,
+    "guid": "2754ffae-97f0-55c6-9a54-3384a6aece64",
+    "date": "2026-09-05T14:30:00+01:00",
+    "start_local": "14:30",
+    "end": "2026-09-05T16:30:00+01:00",
+    "day": "Saturday",
+    "duration": "02:00",
+    "room": "Workshops Madeira",
+    "track": null,
+    "talk_type": "Workshop",
+    "language": "en",
+    "abstract_html": null,
+    "abstract_plain": "This workshop will be a hands-on intro to RSA, X.509, PKI, TLS, and MITM (man-in-the-middle) attacks with Python.",
+    "description_plain": "How does your browser know that https://example.com is actually talking to example.com?\nWhat happens when someone tries to get in the middle?\n\nIn this hands-on tutorial, we'll build the answer from scratch using Python. Starting with RSA keys, we'll progressively construct X.509 certificates, become our own Certificate Authority, secure a Flask server, and teach a Python client what it means to trust someone.\n\nThen we'll break it. Through a series of small coding exercises and experiments, we'll explore certificate chains, identity, trust, and finally a man-in-the-middle attack — seeing first-hand why TLS rejects the attack, and what happens when we change the trust relationship.\n\nNo PKI expertise required. Bring your laptop, your curiosity, and a healthy suspicion of Certificate Authorities.\n\nOutline\n\n1. RSA fundamentals: keys, encryption, and signatures\n2. Certificates: X.509, identities, Subjects and Issuers\n3. Build a CA: issue and verify certificates\n4. Trust: connect a Python client to a TLS-enabled Flask server\n5. MITM: intercept the connection and discover why trust matters\n6. Break it: diagnose broken certificates and trust chains",
+    "speakers": [
+      {
+        "name": "Tiago Montes",
+        "profile_url": "https://pretalx.evolutio.pt/pycon-portugal-2026/speaker/FD3KZU/"
+      }
+    ],
+    "do_not_record": false,
+    "recordings": [],
+    "slides": [],
+    "logo_url": null,
+    "other_links": [],
+    "sources": [
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/talk/CCKFUQ/",
+      "https://pretalx.evolutio.pt/pycon-portugal-2026/schedule/export/schedule.json"
+    ]
+  }
+]

@@ -6,7 +6,7 @@ The Python devroom ran on Saturday 31 January 2026 in room UA2.220 (Guillissen),
 
 FOSDEM's schedule export separates abstract from description. Every Python-track talk had an empty description in both the XML and its event page, so no long-form descriptions exist in the source data; each talk shows its abstract only, reproduced verbatim.
 
-Machine-readable version of this data: [`talks.json`](talks.json) in this directory.
+Machine-readable version of this data: [`talks.json`](https://github.com/thibaudcolas/python-at-fosdem/blob/main/docs/knowledge-base/2026-python-events/fosdem-2026/talks.json) in this directory.
 
 ## Talks
 
@@ -74,8 +74,8 @@ Apache Airflow is the most popular Data Workflow Orchestrator - developed under 
 
 All those distributions are built from a single monorepo.
 
-[jarekpotiuk:~/code/airflow]  find . -name 'pyproject.toml' | wc
-     120     120    4248
+[jarekpotiuk:~/code/airflow] find . -name 'pyproject.toml' | wc
+120 120 4248
 
 This had always posed a lot of challenges and we had a lot of tooling to make it possible, however with the recent development of Python Packaging tools, multipel Packaging PEPs implemented, and with new wave of tools such as uv and prek, our setup is finally manageable and we removed 1000s of line of custom code we wrote before after we applied uv workspaces, switched to prek, started using inline script metadata.
 
@@ -113,6 +113,7 @@ Remember when we said "Infrastructure as Code"? Somehow, the industry heard "Inf
 Enter PyInfra—where your infrastructure is actually code. Real Python. With loops that don’t require learning a DSL. With functions that are... wait for it... actual functions. With error handling that doesn’t involve praying to the YAML gods and sacrificing a virgin bracket.
 
 In this talk, you’ll see how to:
+
 - Write infrastructure automation that your IDE actually understands
 - Debug with real stack traces instead of "ERROR: The task includes an option with an undefined variable"
 - Use actual Python conditionals instead of when: ansible_os_family == "Debian" and not (ansible_distribution == "Ubuntu" and ansible_distribution_version is version('20.04', '>='))

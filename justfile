@@ -17,6 +17,7 @@ lint:
     uv run ruff format --check
     if git ls-files '*.py' | grep -q .; then uv run mypy .; fi
     uv run ty check
+    npm run lint
 
 # Format project files.
 format *paths=".":
@@ -31,6 +32,10 @@ check-links:
 # Build the documentation.
 build-docs:
     NO_MKDOCS_2_WARNING=1 uv run mkdocs build --strict
+
+# Test skill publishing, including generated URLs and bundled resources.
+test:
+    uv run python -m unittest discover -s tests
 
 # Build the documentation and serve it locally.
 docs:

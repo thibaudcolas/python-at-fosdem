@@ -245,7 +245,7 @@ The K-building rooms in 2013-2014 held around 80 seats per the CfPs
   (nothing between May 2017 and December 2019). Organizer names and deadlines for FOSDEM 2018
   therefore remain unverified.
 - **2018 organizer continuity** — the 2019 CfP is signed by Eric Gazoni and Jens Roelant and opens
-  with "we will be running the Python devroom *again*", implying they also ran the 2018 edition,
+  with "we will be running the Python devroom _again_", implying they also ran the 2018 edition,
   but this is not stated outright, so 2018 is left unverified.
 - The `python-devroom@lists.fosdem.org` list referenced by the 2015–2017 CfPs has no publicly
   browsable archive ([404](https://lists.fosdem.org/pipermail/python-devroom/)); its contents

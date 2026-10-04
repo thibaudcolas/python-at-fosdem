@@ -1,0 +1,82 @@
+# Call for Participation
+
+We are happy to announce that we will again be running a **Python devroom at FOSDEM 2027**.
+
+The next edition of FOSDEM will take place on January 30 and 31 2027, with the Python devroom currently scheduled for Saturday, January 30, in the afternoon.
+
+If you haven’t heard about FOSDEM before or are looking for more information, you can visit the official website at https://www.fosdem.org/.
+
+As usual, we are looking for multiple Pythonistas to help us shape the devroom schedule. We are now open to receiving your proposals ! With over 8500 participants, FOSDEM is the perfect place to share your story and meet fellow Python enthusiasts.
+
+Good luck to everyone applying. We’re looking forward to meeting you all at FOSDEM 2027 !
+
+## About FOSDEM
+
+- [Official FOSDEM 2027 website](https://fosdem.org/2027/)
+- [FOSDEM Code of Conduct](https://fosdem.org/2027/practical/conduct/)
+
+FOSDEM is a free and non-commercial event organized by the community for the community.
+
+The goal is to provide free and open source software developers and communities a place to meet to:
+
+- get in touch with other developers and projects;
+- be informed about the latest developments in the free software world;
+- be informed about the latest developments in the open source world;
+- attend interesting talks and presentations on various topics by project leaders and contributors;
+- promote the development and benefits of free software and open source solutions.
+
+Participation and attendance is totally free, though the FOSDEM organizers gratefully accept donations and sponsorship.
+
+## Essential Information
+
+The Python devroom is currently scheduled to be held on January 30 in the afternoon.
+
+- **Submission deadline: December 1 2026**
+- There will be no extension of the deadline
+- Announcement of the schedule: December 7 2026
+- The reference time is Brussels local time (CET).
+- Talk format: 25 minutes presentation, including Q&A, if any. In-person only.
+- Live streaming of the talks will be available.
+
+## Speaker Guidelines
+
+Please submit your talk proposals using the [CFP submission page](https://pretalx.fosdem.org/fosdem-2027/cfp).
+
+- FOSDEM is using a self-hosted Pretalx installation for managing talk submissions. You will need to create an account, if you don’t already have one.
+- In the Submission notes field, please also confirm that if your talk is accepted, you will be able to attend FOSDEM and deliver your presentation. We will not consider proposals from prospective speakers who are unsure whether they will be able to secure funds for travel and lodging to attend FOSDEM. Sadly, we are not able to offer travel funding for prospective speakers.
+- You will need to select the "**Python**" track
+- Keep in mind presentations must be related to Python. All presentations will be recorded and made available under the Creative Commons licenses CC-BY-SA or CC-BY. Captured footage will later be shared online using the FOSDEM archives. By submitting you also agree to these terms.
+
+## List of Desirable Topics
+
+We'd like to make the devroom topics as diverse as possible, so we are looking to offer a mixture of presentations, short tutorials, demos, live coding, etc. This year, the python devroom will focus both on the language itself (new developments, tools and best practices) and its broader applications in education, data science and emerging fields. Examples of these include the following:
+
+- How to start as a Python developer
+- Code infrastructure & starting new projects, e.g. with community-backed tools like uv or pixi
+- Testing/CI best practices; apps or libraries
+- Performant Python code
+- Making use of 3.14t (free-threaded Python with no GIL lock)
+- Sustainable Python code
+- How to do _my cool thing_ in Python
+- Python as a tool for education
+- How to contribute to the Python language
+- Python 3.14, 3.15, 3.16: What's new?
+- Python in data analysis & visualization tools
+- Python in AI & machine learning
+- Reproducibility and best-practices (e.g. lockfile usage)
+- The scientific Python ecosystem
+- How to write secure Python code
+- Python governance structure
+- Python success stories
+- Interoperability and cross-language bindings for Python
+- New Python projects
+
+## Volunteers
+
+We will also call for volunteers to help us run the event and help us with the devroom operation. Please email the organizers, in case you are interested.
+
+## Organizers
+
+You can reach out directly to the organizers, if you have a specific request or question:
+
+- Name: Email

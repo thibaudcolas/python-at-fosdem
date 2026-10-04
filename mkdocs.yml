@@ -8,22 +8,26 @@
 # ---------------------------------------------------------------------------
 
 site_name: Project workspace
-# Replace `OWNER/REPO` with the real GitHub slug.
-repo_url: https://github.com/OWNER/REPO
-site_url: https://OWNER.github.io/REPO/
+repo_url: https://github.com/thibaudcolas/python-at-fosdem
+site_url: https://thibaudcolas.github.io/python-at-fosdem/
 docs_dir: docs
+# Publish raw skills and discovery catalogs after rendering the documentation.
+hooks:
+  - scripts/publish_skills.py
+# Rebuild the catalogs when skills or their supporting resources change locally.
+watch:
+  - .agents/skills
 # "Edit on GitHub" links point to the source Markdown on the main branch.
 edit_uri: edit/main/docs
 
 site_description: A shared workspace for project documentation.
-repo_name: REPO
+repo_name: python-at-fosdem
 # Avoid clashes with other docs servers running on the default 8000 port.
 dev_addr: localhost:8001
 
 theme:
   name: material
-  # Disable Google Fonts downloads – fonts are bundled locally so the site
-  # works without external requests.
+  # Use system fonts without requesting fonts from Google.
   font: false
   logo: theme/favicon.png
   favicon: theme/favicon.png
@@ -124,8 +128,7 @@ markdown_extensions:
       pygments_lang_class: true
   # Inline code highlighting: `` `!python function() `` is highlighted inline.
   - pymdownx.inlinehilite
-  # Auto-link bare URLs and turn `owner/repo#123` shorthand into GitHub
-  # issue/PR links.
+  # Auto-link bare URLs and turn GitHub issues shorthand into issue/PR links.
   - pymdownx.magiclink
   # Pulls in snippet files; `auto_append` attaches `abbreviations.md` to
   # every page so abbreviation tooltips work everywhere.
@@ -147,6 +150,8 @@ markdown_extensions:
   - pymdownx.tilde
 
 plugins:
+  # Apply shared front matter from each section's .meta.yml before indexing pages.
+  - meta
   - search
   # Show the last-modified date of each page based on git history.
   - git-revision-date-localized:
@@ -162,26 +167,35 @@ plugins:
         Home:
           - index.md
         Contributing:
-          - contributing/*.md
+          # List pages explicitly so the abbreviation snippet is not exported.
+          - contributing/README.md
+          - contributing/style-guide.md
+          - contributing/quality-assurance.md
+          - contributing/architecture.md
         Knowledge base:
           - knowledge-base/*.md
           - knowledge-base/2026-python-events/README.md
           - knowledge-base/2026-python-events/fosdem-2026/talks.md
+          - knowledge-base/2026-python-events/djangocon-europe-2026/talks.md
+          - knowledge-base/2026-python-events/pycon-de-pydata-2026/talks.md
+          - knowledge-base/2026-python-events/pydata-london-2026/talks.md
+          - knowledge-base/2026-python-events/pycon-portugal-2026/talks.md
+          - knowledge-base/2026-python-events/pydata-amsterdam-2026/talks.md
           - knowledge-base/fosdem/python-talks-outside-devroom.md
           - knowledge-base/fosdem/python-devroom-organization.md
           - knowledge-base/fosdem/python-devroom-talks.md
-        Project A:
-          - project-a/*.md
-  # Page tagging: tags declared in front matter (e.g. `tags: [draft, policy]`)
-  # are collected into a tag index page. Add or customize in `mkdocs-features.md`. Tag listings render at
-  # `/tags/` in the built site.
+          - knowledge-base/fosdem/devroom-proposal-2026.md
+          - knowledge-base/fosdem/cfp-template-2026.md
+        Projects:
+          - projects/README.md
+          - projects/devroom-proposal-2027/*.md
+  # Collect page and folder tags into the listing marked in tags.md.
   - tags
 
 # Treat structural mistakes as warnings, so `--strict` builds fail on them.
 validation:
   nav:
-    # Every docs page must be in nav, or marked with `not_in_nav` front
-    # matter.
+    # Every docs page must be in nav or matched by the top-level not_in_nav setting.
     omitted_files: warn
     absolute_links: warn
   links:
@@ -189,11 +203,21 @@ validation:
     unrecognized_links: warn
     anchors: warn
 
-# Collected datasets (CSV/JSON) next to docs pages can't be nav entries; exclude
-# them from processing entirely so the strict build doesn't warn about them.
+# Snippet sources and collected datasets (CSV/JSON) next to docs pages can't be
+# nav entries; exclude them from processing entirely so the strict build doesn't
+# warn about them.
 exclude_docs: |
+  /contributing/abbreviations.md
   knowledge-base/**/*.csv
   knowledge-base/**/*.json
+
+# Published pages intentionally kept out of the navigation, like working notes.
+not_in_nav: |
+  /agent-skills.md
+  /tags.md
+  /projects/devroom-proposal-2027/brief.md
+  /projects/devroom-proposal-2027/cfp-template-2027.md
+  /projects/devroom-proposal-2027/devroom-proposal-template-2027.md
 
 nav:
   - Home: index.md
@@ -202,15 +226,26 @@ nav:
       - Documentation style guide: contributing/style-guide.md
       - Quality assurance: contributing/quality-assurance.md
       - Project architecture: contributing/architecture.md
-      - Abbreviations: contributing/abbreviations.md
   - Knowledge base:
       - knowledge-base/README.md
       - Python events in 2026:
           - knowledge-base/2026-python-events/README.md
           - FOSDEM 2026 Python devroom talks: knowledge-base/2026-python-events/fosdem-2026/talks.md
+          - DjangoCon Europe 2026 talks: knowledge-base/2026-python-events/djangocon-europe-2026/talks.md
+          - PyCon DE & PyData 2026 talks: knowledge-base/2026-python-events/pycon-de-pydata-2026/talks.md
+          - PyData London 2026 talks: knowledge-base/2026-python-events/pydata-london-2026/talks.md
+          - PyCon Portugal 2026 talks: knowledge-base/2026-python-events/pycon-portugal-2026/talks.md
+          - PyData Amsterdam 2026 talks: knowledge-base/2026-python-events/pydata-amsterdam-2026/talks.md
       - FOSDEM devroom management: knowledge-base/fosdem-devroom-management.md
       - Python devroom talks dataset: knowledge-base/fosdem/python-devroom-talks.md
       - Python talks outside the devroom: knowledge-base/fosdem/python-talks-outside-devroom.md
       - Python devroom organization: knowledge-base/fosdem/python-devroom-organization.md
-  - Project A:
-      - project-a/README.md
+      - FOSDEM 2026 Python devroom proposal: knowledge-base/fosdem/devroom-proposal-2026.md
+      - FOSDEM 2026 Python devroom CfP: knowledge-base/fosdem/cfp-template-2026.md
+  - Projects:
+      - projects/README.md
+      - Devroom proposal 2027:
+          - projects/devroom-proposal-2027/README.md
+          - Python beyond AI: projects/devroom-proposal-2027/proposal-python-beyond-ai.md
+          - Python for social good: projects/devroom-proposal-2027/proposal-python-social-good.md
+          - Python (broad theme): projects/devroom-proposal-2027/proposal-python-classic.md
